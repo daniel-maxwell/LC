@@ -13,19 +13,19 @@ var canPlaceFlowers = function(flowerbed, n) {
     for (let i=0; i<flowerbed.length; i++) {
         if (i===0) {
             if (flowerbed[i] === 0 && flowerbed[i+1] === 0) {
-                availablePlaces+=1;
-                i+=1;
+                availablePlaces++;
+                i++;
             }
         }
         else if (i === flowerbed.length-1) {
             if (flowerbed[i-1] === 0 && flowerbed[i] === 0) {
-                availablePlaces+=1;
-                i+=1;
+                availablePlaces++;
+                i++;
             }
         } else {
             if (flowerbed[i-1] === 0 && flowerbed[i] === 0 && flowerbed[i+1] === 0) {
-                availablePlaces+=1;
-                i+=1;
+                availablePlaces++;
+                i++;
             }
         }
     }
