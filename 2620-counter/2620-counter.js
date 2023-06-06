@@ -4,10 +4,8 @@
  */
 let calls = 0;
 var createCounter = function(n) {
-    let calls = -1;
     return function() {
-            calls++;
-            return n + calls
+            return n++;
         } 
 };
 
