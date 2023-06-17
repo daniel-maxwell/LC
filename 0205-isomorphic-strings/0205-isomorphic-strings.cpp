@@ -1,19 +1,15 @@
 class Solution {
 public:
     bool isIsomorphic(string s, string t) {
-        vector<int> hashed_s = {}, hashed_t = {};
-
+        unordered_map<char, char> mapST, mapTS;
         for (int i = 0; i < s.size(); ++i) {
-            int idx_s = -1, idx_t = -1;
-
-            for (int j = 0; j < s.size(); ++j) {
-                if (s[i] == s[j] && idx_s == -1) idx_s = j;
-                if (t[i] == t[j] && idx_t == -1) idx_t = j;
-                if (idx_s != -1 && idx_t != -1) break;
-            };
-            hashed_s.push_back(idx_s);
-            hashed_t.push_back(idx_t);
+            if ((mapST.find(s[i]) != mapST.end() && mapST.at(s[i]) != t[i]) ||
+                (mapTS.find(t[i]) != mapTS.end() && mapTS.at(t[i]) != s[i])) {
+                return false;
+            }
+            mapST.insert_or_assign(s[i], t[i]);
+            mapTS.insert_or_assign(t[i], s[i]);
         };
-        return hashed_s == hashed_t;
+        return true;
     };
 };
