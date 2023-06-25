@@ -4,8 +4,6 @@ class Solution:
         j = len(s)-1
 
         while (j-i>len(s)%2):
-            temp = s[j]
-            s[j] = s[i]
-            s[i] = temp
+            s[j], s[i] = s[i], s[j]
             i += 1
             j -= 1
