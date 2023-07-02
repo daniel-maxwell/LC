@@ -1,14 +1,20 @@
 class Solution {
 public:
     void moveZeroes(vector<int>& nums) {
-        int i=0, j=0;
-        while (i + j < nums.size()){
-            if (nums[i] == 0) {
-                nums.erase(nums.begin()+i);
-                nums.push_back(0);
-                ++j;
+        int n = nums.size();
+        int idx = 0;
+
+        // Move all the non-zero elements to the front
+        for (int i = 0; i < n; i++) {
+            if (nums[i] != 0) {
+                nums[idx++] = nums[i];
             }
-            else ++i;
-        };
-    };
+        }
+
+        // Make all the remaining elements 0
+        while (idx < n) {
+            nums[idx++] = 0;
+        }
+
+    }
 };
