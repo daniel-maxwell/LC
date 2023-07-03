@@ -2,20 +2,23 @@ class MyHashSet:
 
     def __init__(self):
         self.Set = []
+        self.log = {}
         
 
     def add(self, key: int) -> None:
-        if key not in self.Set:
+        if self.log.get(key) is None:
             self.Set.append(key)
+            self.log[key] = len(self.Set) -1
         
 
     def remove(self, key: int) -> None:
-        if key in self.Set:
-            self.Set.remove(key)
+        if self.log.get(key) is not None:
+            self.Set[self.log[key]] = -1
+            del self.log[key]
         
 
     def contains(self, key: int) -> bool:
-        return key in self.Set
+        return self.log.get(key) is not None
         
 
 
