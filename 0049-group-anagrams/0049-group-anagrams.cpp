@@ -15,14 +15,15 @@ public:
     }
 private:
     string getKey(string str) {
-        vector<int> count(26);
-        for (int j = 0; j < str.size(); j++) {
-            count[str[j] - 'a']++;
+        vector<int> count(26, 0);
+        for (char c : str) {
+            count[c - 'a']++;
         }
-        
+
         string key = "";
         for (int i = 0; i < 26; i++) {
-            key.append(to_string(count[i] + 'a'));
+            key.append("#");
+            key.append(to_string(count[i]));
         }
         return key;
     };
