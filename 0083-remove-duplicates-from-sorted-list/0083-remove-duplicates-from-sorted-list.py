@@ -13,10 +13,14 @@ class Solution:
         prev = head
 
         while curr != None:
-
+            duplicatesPresent = False
+            
             while curr != None and prev.val == curr.val:
-                prev.next = curr.next
+                duplicatesPresent = True
                 curr = curr.next
+
+            if duplicatesPresent == True:
+                prev.next = curr
 
             if curr == None: break
             else:
