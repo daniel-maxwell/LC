@@ -1,15 +1,16 @@
 class Solution:
     def removeStars(self, s: str) -> str:
+        s = list(s)
         starStack = []
 
         for i in range(len(s) -1, -1, -1):
             if s[i] == '*':
                 starStack.append('*')
-                s = s[:i] + s[i + 1:]
+                s.pop(i)
 
             else:
                 if starStack:
-                    s = s[:i] + s[i + 1:]
+                    s.pop(i)
                     starStack.pop()
 
-        return s
+        return ''.join(s)
