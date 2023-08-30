@@ -1,30 +1,35 @@
 class StockSpanner:
 
     def __init__(self):
-        self.dayStack = []
-        self.span = 0
-        self.maxPrice = 0
-        
+        self.prices = []
+        self.numDays = 1
+        self.yesterday = 10**5
 
     def next(self, price: int) -> int:
-        self.span = 0
-        self.dayStack.append(price)
-        if price >= self.maxPrice:
-            self.maxPrice = price
-            return len(self.dayStack)
 
-        i = len(self.dayStack) - 1
+        if price >= self.yesterday:
 
-        while i >= 0 and self.dayStack[i] <= price:
-            self.span += 1
-            i -= 1
+            totalDays = self.numDays + 1
+            i = len(self.prices) - self.numDays - 1
+
+            while i >= 0 and price >= self.prices[i][0]:
+                totalDays += self.prices[i][1]
+                i -= self.prices[i][1]
+
+            self.yesterday = price
+            self.numDays = totalDays
+            self.prices.append((price, self.numDays))
+      
+            return totalDays       
+
+        else:
+            self.yesterday = price
+            self.numDays = 1
+            self.prices.append((price, self.numDays))
+            return 1
+
+
         
-        return self.span
-
-
-        
-
-
 # Your StockSpanner object will be instantiated and called as such:
 # obj = StockSpanner()
 # param_1 = obj.next(price)
