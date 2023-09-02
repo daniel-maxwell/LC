@@ -9,11 +9,7 @@ class Solution:
             if charStack and charStack[-1] == s[i]:
 
                 if occStack[-1] == k-1:  # enough occurences to pop
-
-                    while occStack[-1] > 0:
-                        charStack.pop()
-                        occStack[-1] -= 1
-
+                    charStack = charStack[:len(charStack)-(k-1)]
                     occStack.pop()
 
                 else:
