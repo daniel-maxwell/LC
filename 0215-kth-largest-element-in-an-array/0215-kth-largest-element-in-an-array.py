@@ -1,7 +1,9 @@
 class Solution:
     def findKthLargest(self, nums: List[int], k: int) -> int:
-        heap = []
 
+        ##### Heap approch - beats ~5% time efficiency (n + k*log(n)), ~5% space efficiency) #####
+        '''
+        heap = []
         def insertMaxHeap(self, heap, val):
             pos = len(heap)
             heap.append(val)
@@ -43,3 +45,7 @@ class Solution:
             k -= 1
 
         return heap[0]
+        '''
+
+        ##### Easy / most efficient appoach #####
+        return sorted(nums)[-k]
