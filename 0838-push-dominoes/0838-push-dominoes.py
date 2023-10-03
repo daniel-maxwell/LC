@@ -1,17 +1,19 @@
 class Solution:
     def pushDominoes(self, dominoes: str) -> str:
         dominoes = "." + dominoes + "."
-        lStack, rStack = [], []
+        lStack, rStack, idxSet, = [], [], set()
 
         while True:
-
             for i in range(1, len(dominoes)-1):
+                if i in idxSet: continue
                 if dominoes[i] == ".":
                     left, right = dominoes[i-1], dominoes[i+1]
                     if left == "R" and right != "L":
                         rStack.append(i)
+                        idxSet.add(i)
                     elif left != "R" and right == "L":
                         lStack.append(i)
+                        idxSet.add(i)
                     else:
                         continue
 
