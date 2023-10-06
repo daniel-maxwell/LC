@@ -11,6 +11,8 @@ class Solution:
             heapq.heappush(diffMinHeap, (diff, val))
 
         while len(output) < k:
-            bisect.insort(output, heapq.heappop(diffMinHeap)[1])
+            output.append(heapq.heappop(diffMinHeap)[1])
+
+        output.sort()
 
         return output
