@@ -1,3 +1,5 @@
+import bisect
+
 class Solution:
     def findClosestElements(self, arr: List[int], k: int, x: int) -> List[int]:
 
@@ -9,8 +11,6 @@ class Solution:
             heapq.heappush(diffMinHeap, (diff, val))
 
         while len(output) < k:
-            output.append(heapq.heappop(diffMinHeap)[1])
-
-        output.sort()
+            bisect.insort(output, heapq.heappop(diffMinHeap)[1])
 
         return output
