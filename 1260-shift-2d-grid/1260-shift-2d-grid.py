@@ -1,24 +1,32 @@
 class Solution:
     def shiftGrid(self, grid: List[List[int]], k: int) -> List[List[int]]:
 
-        def shiftOnce(grid):
-            prev = grid[-1][-1]
+        # Get the dimensions of the grid
+        M, N = len(grid), len(grid[0])
 
-            i = 0
+        ### Helper functions ###
+        
+        # Converts the position in the grid to position in 1D array
+        def posToVal(r, c):
+            return r * N + c
 
-            while i < len(grid):
+        # Converts the idx in a 1D array to position in the grid
+        def valToPos(v):
+            return [v//N, v % N]
 
-                for j in range(0, len(grid[i])):
+        # Create (currently 0-filled) result grid
+        res = [[0] * N for i in range(M)]
 
-                    tmp = grid[i][j]
-                    grid[i][j] = prev
-                    prev = tmp
+        # iterate through every position in the 2D grid
+        for r in range(M):
+            for c in range(N):
+                # Calculate value in 1D array
+                newVal = (posToVal(r, c) + k) % (M * N)
 
-                i += 1
+                # Calculate new position in result grid
+                newR, newC = valToPos(newVal)
 
-            return grid
+                # Insert value in to result grid
+                res[newR][newC] = grid[r][c]
 
-        for i in range(0, k):
-            grid = shiftOnce(grid)
-
-        return grid
+        return res
