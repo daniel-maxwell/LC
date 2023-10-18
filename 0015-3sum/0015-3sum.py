@@ -1,35 +1,37 @@
 class Solution:
-    def threeSum(self, nums: List[int]) -> List[List[int]]:     
-        counts, res, added = {}, [], set()
-        for num in nums[1:]: counts[num] = 1 if num not in counts else counts[num] + 1
-        countsCopy = counts.copy()
-        
-        i = 0
+    def threeSum(self, nums: List[int]) -> List[List[int]]:
+        nums.sort()
+        aSet, res = set(), []
 
-        while counts:
-            j = i + 1
-            while j < len(nums):
-                if counts[nums[j]] > 1:
-                    counts[nums[j]] -= 1
+        for a in range(0, len(nums)-2):
+            
+            if nums[a] in aSet:
+                a += 1
+                continue
+
+            lSet, rSet, = set(), set()
+            l, r = a + 1, len(nums)-1
+
+            while l < r:
+                summed = nums[a] + nums[l] + nums[r]
+
+                if summed == 0:
+                    res.append([nums[a], nums[l], nums[r]])
+                    lSet.add(nums[l])
+                    rSet.add(nums[r])
+
+                elif summed < 0:
+                    lSet.add(nums[l])
+                    l += 1
                 else:
-                    counts.pop(nums[j])
+                    rSet.add(nums[r])
+                    r -= 1
 
-                lower = min(nums[i], nums[j])
-                higher = max(nums[i], nums[j])
-                target = -(lower + higher)
+                
+                while nums[l] in lSet and l < r: l += 1
+                while nums[r] in rSet and r > l: r -= 1
 
-                if target in counts and (lower, higher) not in added:
-                    res.append([lower, higher, target])
-                    added.add((lower, higher))
-                    added.add((min(lower, target), max(lower, target)))
-                    added.add((min(higher, target), max(higher, target)))
-
-                j += 1
-            i += 1
-
-            if countsCopy[nums[i]] > 1:
-                countsCopy[nums[i]] -= 1
-            else: countsCopy.pop(nums[i])
-            counts = countsCopy.copy()
+            aSet.add(nums[a])
+            a += 1
 
         return res
