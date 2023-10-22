@@ -7,10 +7,8 @@ class Solution:
         l, r = max(1, len(piles)//h), math.ceil((len(piles) * piles[-1]) / h)
         lowest = max(piles[-1], r)
         speed = l + ((r-l) // 2)
-        speeds = []
 
         while l <= r:
-            speeds.append(speed)
             hourCount = 0
             i = len(piles)-1
 
@@ -26,7 +24,6 @@ class Solution:
             else:
                 l = speed + 1
 
-                
             speed = l + ((r-l) // 2)
 
         return int(lowest)
