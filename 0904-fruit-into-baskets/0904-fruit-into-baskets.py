@@ -24,6 +24,7 @@ class Solution:
             fruitB = fruits[i]
 
             while i < len(fruits) and (fruitA == fruits[i] or fruitB == fruits[i]):
+                if maxFruits > (len(fruits) - i) + collected: break
                 collected += 1
                 i += 1
 
