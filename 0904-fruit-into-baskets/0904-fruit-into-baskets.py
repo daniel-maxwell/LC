@@ -1,33 +1,21 @@
 class Solution:
     def totalFruit(self, fruits: List[int]) -> int:
-        
-        maxFruits = 0
+        count = collections.defaultdict(int)
 
-        for start in range(len(fruits)):
-            if maxFruits > len(fruits) - start: break
-            fruitA, fruitB = fruits[start], None
-            collected = 1
+        l, total, res = 0, 0, 0
 
-            if start + 1 == len(fruits):
-                maxFruits = max(collected, maxFruits)
-                break
+        for r in range(len(fruits)):
+            count[fruits[r]] += 1
+            total += 1
 
-            i = start + 1
+            while len(count) > 2:
+                f = fruits[l]
+                count[f] -= 1
+                total -=  1
+                l += 1
+                if not count[f]:
+                    count.pop(f)
 
-            while i < len(fruits) and fruitA == fruits[i]:
-                collected += 1
-                i += 1
-            if i == len(fruits):
-                maxFruits = max(collected, maxFruits)
-                break
+            res = max(res, total)
 
-            fruitB = fruits[i]
-
-            while i < len(fruits) and (fruitA == fruits[i] or fruitB == fruits[i]):
-                if maxFruits > (len(fruits) - i) + collected: break
-                collected += 1
-                i += 1
-
-            maxFruits = max(collected, maxFruits)
-
-        return maxFruits  
+        return res
