@@ -3,18 +3,18 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """
-        numsCopy = nums.copy()
-
         k = k % len(nums)
-
-        i, j = 0, len(nums) - k
-
-        while i < len(nums):
-
-            if j == len(nums):
-                j = 0
-
-            nums[i] = numsCopy[j]
+        l, r = 0, len(nums) - 1
+        while l < r:
+            nums[l], nums[r] = nums[r], nums[l]
+            l, r = l + 1, r - 1
             
-            i += 1
-            j += 1
+        l, r = 0, k - 1
+        while l < r:
+            nums[l], nums[r] = nums[r], nums[l]
+            l, r = l + 1, r - 1
+            
+        l, r = k, len(nums) - 1
+        while l < r:
+            nums[l], nums[r] = nums[r], nums[l]
+            l, r = l + 1, r - 1
