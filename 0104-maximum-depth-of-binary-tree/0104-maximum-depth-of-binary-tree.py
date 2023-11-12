@@ -6,23 +6,15 @@
 #         self.right = right
 class Solution:
     def maxDepth(self, root: Optional[TreeNode]) -> int:
-        self.maxcount = 0
-        self.currcount = 0
+        def getHeight(root):
 
-        if not root:
-            return 0
-
-        def preorder(root):      
             if not root:
-                if self.currcount > self.maxcount:
-                    self.maxcount = self.currcount
-                return
-            else:
-                self.currcount += 1
-                
-            preorder(root.left)
-            preorder(root.right)
-            self.currcount -= 1
+                return 0
+            
+            else: 
+                lheight = getHeight(root.left)
+                rheight = getHeight(root.right)
 
-        preorder(root)
-        return self.maxcount
+                return max(lheight, rheight) + 1
+
+        return getHeight(root)
