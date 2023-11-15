@@ -21,6 +21,7 @@ class Solution:
         def preOrder(root):
             if not root:
                 return
+            if res[0]: return
 
             if sameTree(root, subRoot):
                 res[0] = True
