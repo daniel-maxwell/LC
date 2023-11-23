@@ -11,16 +11,15 @@ class Solution:
             if not root:
                 return True
             res = False if root.val >= val else True
-            
+            if not res: return False
             return res and validLeft(root.left, val) and validLeft(root.right, val)
 
         def validRight(root, val):
             if not root:
                 return True
             res = False if root.val <= val else True
-
+            if not res: return False
             return res and validRight(root.left, val) and validRight(root.right, val)
-
 
         def dfs(root):
             if not root: return True
