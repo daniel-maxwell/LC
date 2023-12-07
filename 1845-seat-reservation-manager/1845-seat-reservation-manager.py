@@ -2,7 +2,6 @@ class SeatManager:
 
     def __init__(self, n: int):
         self.unreserved = [x for x in range(1, n+1)]
-        heapq.heapify(self.unreserved)
         
 
     def reserve(self) -> int:
