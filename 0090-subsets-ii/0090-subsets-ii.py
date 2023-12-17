@@ -8,7 +8,6 @@ class Solution:
             if i >= len(nums):
                 res.append(curr.copy())
                 return
-            
 
             curr.append(nums[i])
             dfs(curr, i + 1)
