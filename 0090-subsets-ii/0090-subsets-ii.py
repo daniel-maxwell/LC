@@ -1,34 +1,24 @@
 class Solution:
     def subsetsWithDup(self, nums: List[int]) -> List[List[int]]:
-        added = set()
         res = []
+        nums.sort()
 
-        def dfs(i, curr, nums):
-            i -= 1
-            if i < 0:
-                serialized = curr.copy()
-                serialized.sort()
-                serialized = str(serialized)
-                if serialized in added:
-                    return
-                else:   
-                    res.append(curr.copy())
-                    added.add(serialized)
-                    return
+        def dfs(curr, i):
 
-            # Going left (add)
+            if i >= len(nums):
+                res.append(curr.copy())
+                return
+            
+
             curr.append(nums[i])
-            dfs(i, curr, nums)
-             
-            # Going right (stay same)
+            dfs(curr, i + 1)
+
+            while i < len(nums) and nums[i] == curr[-1]:
+                i += 1
+
             curr.pop()
-            dfs(i, curr, nums)
+            dfs(curr, i)
 
-        while nums:
-            curr = [nums[-1]]
-            i = len(nums) - 1
-            dfs(i, curr, nums)
-            nums.pop()
+        dfs([], 0)
 
-        res.append([])
         return res
