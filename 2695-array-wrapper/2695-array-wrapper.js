@@ -10,11 +10,12 @@ var ArrayWrapper = function(nums) {
  * @return {number}
  */
 ArrayWrapper.prototype.valueOf = function() {
-    let res = 0
-    for (i=0; i<this.nums.length; i++) {
-        res += this.nums[i]
-    }
-    return res
+    const initialValue = 0;
+    const sum = this.nums.reduce(
+    (accumulator, currentValue) => accumulator + currentValue,
+    initialValue,
+    );
+    return sum
 }
 
 /**
