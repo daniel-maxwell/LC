@@ -30,6 +30,8 @@ class Solution:
                 backtrack(curr, r, r+1, pCount - 1)
                 curr.pop()
                 backtrack(curr, l, r+1, pCount)
+            
+            return
 
         for i in range(1, len(s)):
             backtrack([], 0, 1, i)
