@@ -1,31 +1,32 @@
 class Solution:
     def numIslands(self, grid: List[List[str]]) -> int:
-        visited, counter = set(), 0
+        if not grid: return 0
+        rows, cols = len(grid), len(grid[0])
+        visited, islands = set(), 0
 
-        def findCompleteIsland(pos):
-            if grid[pos[0]][pos[1]] != "1": return
-            visited.add(pos)
-            moves = []
-            row, col = pos
+        def bfs(r, c):
+            q = deque()
+            q.append((r, c))
+            visited.add((r, c))
+            
+            while q:
+                row, col = q.popleft()
+                directions = [[1, 0], [-1, 0], [0, 1], [0, -1]]
 
-            if row-1 >= 0 and (row-1, col) not in visited: # Top
-                moves.append((row-1, col))
-            if col+1 < len(grid[0]) and (row, col+1) not in visited: # Right
-                moves.append((row, col+1))
-            if row+1 < len(grid) and (row+1, col) not in visited: # Bottom
-                moves.append((row+1, col))
-            if col-1 >= 0 and (row, col-1) not in visited: # Left
-                moves.append((row, col-1))
+                for dr, dc in directions:
+                    r, c = row + dr, col + dc
 
-            while moves:
-                findCompleteIsland(moves.pop())
-        
-        for i in range(0, len(grid)):
-            for j in range(0, len(grid[0])):
-                if (i, j) in visited: continue
-                visited.add((i, j))
-                if grid[i][j] == "1":
-                    findCompleteIsland((i, j))
-                    counter += 1
-        
-        return counter
+                    if ((r) in range(rows) and
+                        (c) in range(cols) and
+                        grid[r][c] == "1" and
+                        (r, c) not in visited):
+                            q.append((r, c))
+                            visited.add((r, c))
+
+        for r in range(rows):
+            for c in range(cols):
+                if grid[r][c] == "1" and (r, c) not in visited:
+                    bfs(r, c)
+                    islands += 1
+
+        return islands
