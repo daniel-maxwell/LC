@@ -2,6 +2,7 @@ class Solution:
     def makesquare(self, matchsticks: List[int]) -> bool:
         maxSL = sum(matchsticks) / 4
         if not maxSL.is_integer(): return False
+        maxSL = int(maxSL)
         square = [0, 0, 0, 0]
         matchsticks.sort(reverse=True)
 
