@@ -59,7 +59,6 @@ Transactions table:
 | 4          | 900002     | 1000       |  2020-09-12   |
 | 5          | 900003     | 6000       |  2020-08-07   |
 | 6          | 900003     | 6000       |  2020-09-07   |
-| 7          | 900003     | -4000      |  2020-09-11   |
 +------------+------------+------------+---------------+
 <strong>Output:</strong> 
 +------------+------------+
@@ -69,7 +68,7 @@ Transactions table:
 +------------+------------+
 <strong>Explanation:</strong> 
 Alice's balance is (7000 + 7000 - 3000) = 11000.
-Bob's balance is 1000.
+Bob's balance is 1000 and thus should not appear in the resulting table.
 Charlie's balance is (6000 + 6000 - 4000) = 8000.
 </pre>
 </div>
