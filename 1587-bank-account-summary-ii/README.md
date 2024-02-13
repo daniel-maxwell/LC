@@ -68,7 +68,7 @@ Transactions table:
 +------------+------------+
 <strong>Explanation:</strong> 
 Alice's balance is (7000 + 7000 - 3000) = 11000.
-Bob's balance is 1000 and thus should not appear in the resulting table.
+Bob's balance is 1000.
 Charlie's balance is (6000 + 6000 - 4000) = 8000.
 </pre>
 </div>
