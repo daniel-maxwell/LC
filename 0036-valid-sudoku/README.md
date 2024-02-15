@@ -45,6 +45,7 @@
 <strong>Explanation:</strong> Same as Example 1, except with the <strong>5</strong> in the top left corner being modified to <strong>8</strong>. Since there are two 8's in the top left 3x3 sub-box, it is invalid.
 </pre>
 
+
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
 
