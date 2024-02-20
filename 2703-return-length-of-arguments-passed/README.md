@@ -27,4 +27,4 @@ Three values were passed to the function so it should return 3.
 	<li><code>args</code>&nbsp;is a valid JSON array</li>
 	<li><code>0 &lt;= args.length &lt;= 100</code></li>
 </ul>
-</div>
+</div> 
