@@ -1,31 +1,41 @@
 class Solution:
     def shipWithinDays(self, weights: List[int], days: int) -> int:
-        def checkCapacity(weights, days, capacity):
-            dailyCapacity = capacity
-            
+        maxWeight = max(weights) * len(weights)
+
+        def canShip(capacity, days):
+            timetaken = 0
+            currCapacity = capacity
+
             for weight in weights:
-                if weight > capacity: return False
+                
+                if timetaken >= days:
+                    return False
 
-                if weight > dailyCapacity:
-                    days -= 1
-                    if not days: return False
-                    dailyCapacity = capacity
-                    dailyCapacity -= weight
+                if weight > capacity:
+                    return False
+
+                elif weight > currCapacity:
+                    currCapacity = capacity - weight
+                    timetaken += 1
+
                 else:
-                    dailyCapacity -= weight
+                    currCapacity -= weight
 
-            return True
+            return timetaken < days
 
-        l, r, result = 1, 500 * len(weights), None
-        mid = l + ((r-l)//2)
+        minCap = float('inf')
+        
+        l, r = 0, maxWeight
 
         while l <= r:
-
-            if checkCapacity(weights, days, mid):
-                res = mid
-                r = mid - 1
-            else:
-                l = mid + 1
             mid = l + ((r-l)//2)
 
-        return res
+            if canShip(mid, days):
+
+                minCap = min(mid, minCap)
+                r = mid - 1
+            else:
+
+                l = mid + 1
+
+        return minCap
