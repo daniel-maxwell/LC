@@ -8,21 +8,20 @@ class Solution:
         """
         Do not return anything, modify head in-place instead.
         """
-        stack = []
-        curr = head
+        p, nodes = head, []
 
-        while curr:
-            stack.append(curr)
-            curr = curr.next
+        while p:
+            nodes.append(p)
+            p = p.next
 
-        curr = head
-        stop = stack[len(stack)//2]
+        l, r = 0, len(nodes) - 1
 
-        while curr is not stop:
-            Next = curr.next
-            curr.next = stack.pop()
-            curr = curr.next
-            curr.next = Next
-            curr = curr.next
+        while l < r:
+            nodes[l].next = nodes[r]
+            l += 1
+            nodes[r].next = nodes[l]
+            r -= 1
 
-        curr.next = None
+        nodes[l].next = None
+
+        return nodes[0]
