@@ -1,29 +1,32 @@
 class Solution:
     def minEatingSpeed(self, piles: List[int], h: int) -> int:
-        if h == len(piles): return max(piles)
-        if len(piles) == 1: return math.ceil(piles[0]/h)
-        piles.sort()
 
-        l, r = max(1, len(piles)//h), math.ceil((len(piles) * piles[-1]) / h)
-        lowest = max(piles[-1], r)
-        speed = l + ((r-l) // 2)
+        def canEatAllBananas(speed):
+            kokoLoc = 0
+            timeRemaining = h
+
+            while kokoLoc < len(piles) and timeRemaining > 0:
+                pile = piles[kokoLoc]
+                timeRemaining -= ceil(pile / speed)
+
+                if timeRemaining >= 0:
+                    kokoLoc += 1
+                else:
+                    break
+
+            return kokoLoc == len(piles)
+
+        l, r = 1, max(piles) * len(piles)
+        minSpeed = r
 
         while l <= r:
-            hourCount = 0
-            i = len(piles)-1
+            mid = l + ((r-l)//2)
 
-            while i >= 0 and speed < piles[i] and hourCount < h:
-                hourCount += math.ceil(piles[i] / speed)
-                i -= 1
-            hourCount += i + 1
-        
-            if hourCount <= h:
-                if speed < lowest: lowest = speed
-                r = speed - 1
-                
+            if canEatAllBananas(mid):
+                r = mid - 1
+                minSpeed = min(mid, minSpeed)
+
             else:
-                l = speed + 1
+                l = mid + 1
 
-            speed = l + ((r-l) // 2)
-
-        return int(lowest)
+        return minSpeed
