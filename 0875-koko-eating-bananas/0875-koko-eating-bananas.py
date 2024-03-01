@@ -16,7 +16,7 @@ class Solution:
 
             return kokoLoc == len(piles)
 
-        l, r = 1, max(piles) * len(piles)
+        l, r = 1, max(piles)
         minSpeed = r
 
         while l <= r:
