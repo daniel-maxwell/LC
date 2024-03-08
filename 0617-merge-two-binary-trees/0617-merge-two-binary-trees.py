@@ -7,24 +7,28 @@
 class Solution:
     def mergeTrees(self, root1: Optional[TreeNode], root2: Optional[TreeNode]) -> Optional[TreeNode]:
 
-        if not (root1 and root2):
+        if root1 and root2:
+            root1.val += root2.val
+        else:
             return root1 if root1 else root2
 
-        def traverseAndMerge(root1, root2):
+        def dfs(r1, r2):
 
-            if not (root1 or root2):
-                return
+            if r1.left and r2.left:
+                r1.left.val += r2.left.val
+                dfs(r1.left, r2.left)
 
-            if not (root1 and root2):
-                return root1 if root1 else root2
+            elif not r1.left and r2.left:
+                r1.left = r2.left
+            
 
-            curr = TreeNode(root1.val + root2.val)
-  
-            curr.left = traverseAndMerge(root1.left, root2.left)
-            curr.right = traverseAndMerge(root1.right, root2.right)
+            if r1.right and r2.right:
+                r1.right.val += r2.right.val
+                dfs(r1.right, r2.right)
 
-            return curr
+            elif not r1.right and r2.right:
+                r1.right = r2.right
 
-        root = traverseAndMerge(root1, root2)
+        dfs(root1, root2)
 
-        return root
+        return root1
