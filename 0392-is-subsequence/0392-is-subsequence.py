@@ -1,8 +1,14 @@
 class Solution:
     def isSubsequence(self, s: str, t: str) -> bool:
-        if s == "": return True
-        matchingChar = 0
-        for char in t:
-            if matchingChar < len(s) and s[matchingChar] == char:
-                matchingChar+=1
-        return matchingChar == len(s)
+        if not s:
+            return True
+        sStack = list(s)
+
+        for i in range(len(t)-1, -1, -1):
+            if t[i] == sStack[-1]:
+                sStack.pop()
+
+            if not sStack:
+                return True
+
+        return False
