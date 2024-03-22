@@ -6,21 +6,19 @@
 #         self.right = right
 class Solution:
     def isSymmetric(self, root: Optional[TreeNode]) -> bool:
-        self.bool = True
-     
-        def traverseTwo(root1, root2):
-            if root1 == None or root2 == None:
-                if root1 != root2:
-                    self.bool = False
-                return
-                
-            if root1.val != root2.val:
-                self.bool = False
-                return
-                
-            traverseTwo(root1.left, root2.right)
-            traverseTwo(root1.right, root2.left)
+
+        def dfs(l, r):
+            if not l and not r:
+                return True
             
-        traverseTwo(root.left, root.right)
+            if (l and not r) or (r and not l):
+                return False
+
+            if l.val != r.val:
+                return False
+
+            return True and dfs(l.left, r.right) and dfs(l.right, r.left)
+
+        return dfs(root.left, root.right)
+
         
-        return self.bool
