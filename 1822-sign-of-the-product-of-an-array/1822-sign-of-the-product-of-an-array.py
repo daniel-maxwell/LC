@@ -1,8 +1,12 @@
 class Solution:
     def arraySign(self, nums: List[int]) -> int:
-        product = nums[0]
-        for i in range(1, len(nums)):
-            product *= nums[i]
-        if product == 0: return 0
-        if product > 0: return 1
-        else: return -1
+        x = 1
+        for num in nums:
+            x *= num
+
+        if x > 0:
+            return 1
+        elif x < 0:
+            return -1
+        else:
+            return 0
