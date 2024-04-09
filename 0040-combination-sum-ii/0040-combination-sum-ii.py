@@ -3,22 +3,22 @@ class Solution:
         candidates.sort()
 
         res = []
+        def backtrack(curr, currSum, i):
 
-        def backtrack(cur, pos, target):
-            if target == 0:
-                res.append(cur.copy())
-                return
-            if target <= 0:
+            if currSum == target:
+                res.append(curr.copy())
                 return
 
-            prev = -1
-            for i in range(pos, len(candidates)):
-                if candidates[i] == prev:
-                    continue
-                cur.append(candidates[i])
-                backtrack(cur, i + 1, target - candidates[i])
-                cur.pop()
-                prev = candidates[i]
+            if i == len(candidates) or currSum > target:
+                return
 
-        backtrack([], 0, target)
+            curr.append(candidates[i])
+            currSum += candidates[i]
+            backtrack(curr, currSum, i + 1)
+            while i < len(candidates) and candidates[i] == curr[-1]:
+                i += 1
+            currSum -= curr.pop()
+            backtrack(curr, currSum, i)
+
+        backtrack([], 0, 0)
         return res
