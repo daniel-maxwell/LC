@@ -1,6 +1,8 @@
 class Solution:
     def letterCombinations(self, digits: str) -> List[str]:
-        if not digits: return []
+
+        if not digits:
+            return []
 
         mapping = {
             "2": ("a", "b", "c"),
@@ -15,20 +17,23 @@ class Solution:
 
         res = []
 
-        def dfs(curr, i, j):
-            print(curr)
+        def backtrack(curr, i, j):
 
             if len(curr) == len(digits):
                 res.append(''.join(curr))
                 return
-            
-            if i == len(digits) or j == len(mapping[digits[i]]):
+
+            if len(curr) > len(digits):
+                return
+
+            if j == len(mapping[digits[i]]):
                 return
 
             curr.append(mapping[digits[i]][j])
-            dfs(curr, i + 1, 0)
+            backtrack(curr, i+1, 0)
             curr.pop()
-            dfs(curr, i, j + 1)
+            backtrack(curr, i, j+1)
 
-        dfs([], 0, 0)
+        backtrack([], 0, 0)
+
         return res
