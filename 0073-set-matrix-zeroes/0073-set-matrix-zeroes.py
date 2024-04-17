@@ -3,28 +3,21 @@ class Solution:
         """
         Do not return anything, modify matrix in-place instead.
         """
-        toConvert, convertedRows, convertedCols = [], set(), set()
+        rowsToConvert, colsToConvert = set(), set()
 
-        def convertRow(rowNum):
-            for i in range(0, len(matrix[rowNum])):
-                matrix[rowNum][i] = 0
+        for i in range(len(matrix)):
+            for j in range(len(matrix[0])):
+                if matrix[i][j] == 0:
+                    rowsToConvert.add(i)
+                    colsToConvert.add(j)
 
-        def convertCol(colNum):
-            for row in matrix:
-                row[colNum] = 0
+        for row in range(len(matrix)):
+            if row in rowsToConvert:
+                matrix[row] = [0] * len(matrix[row])
 
-        for r in range(0, len(matrix)):
-            for c in range(0, len(matrix[r])):
-                if matrix[r][c] == 0:
-                    toConvert.append((r, c))
+            for col in range(len(matrix[0])):
+                if col in colsToConvert:
+                    for r in matrix:
+                        r[col] = 0
 
-        while toConvert:
-            row, col = toConvert.pop()
-
-            if row not in convertedRows:
-                convertRow(row)
-                convertedRows.add(row)
-
-            if col not in convertedCols:
-                convertCol(col)
-                convertedCols.add(col)
+        return matrix
