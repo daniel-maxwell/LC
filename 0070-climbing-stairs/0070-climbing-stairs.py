@@ -1,12 +1,11 @@
 class Solution:
     def climbStairs(self, n: int) -> int:
-        totalWays = [1, 2, 3]
+        ways = [1, 2]
 
-        if n <= 3:
-            return totalWays[n-1]
+        while n > 2:
+            tmp = ways[-1]
+            ways[-1] += ways[-2]
+            ways[-2] = tmp
+            n -= 1
 
-        else:
-            while len(totalWays) < n:
-                totalWays.append(totalWays[-1] + totalWays[-2])
-
-            return totalWays[-1]
+        return ways[-1] if n == 2 else ways[0]
