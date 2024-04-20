@@ -2,15 +2,14 @@ class Solution:
     def rob(self, nums: List[int]) -> int:
         if len(nums) <= 2:
             return max(nums)
-        return max(self.get(nums[1:]), self.get(nums[:-1]))
 
-    def get(self, nums: List[int]) -> int:
-        
+        return max(self.get(nums, 0, 1, len(nums) - 1), self.get(nums, 1, 2, len(nums)))
 
-        maxCash = [nums[0], max(nums[0], nums[1])]
+    def get(self, nums: List[int], a: int, b: int, c: int) -> int:
+        maxCash = [nums[a], max(nums[a], nums[b])]
 
-        i = 2
-        while i < len(nums):
+        i = b + 1
+        while i < c:
             tmp = maxCash[-1]
             maxCash[-1] = max(nums[i] + maxCash[0], maxCash[-1])
             maxCash[0] = tmp
