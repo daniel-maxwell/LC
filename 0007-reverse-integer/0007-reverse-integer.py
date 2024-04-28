@@ -1,18 +1,22 @@
 class Solution:
     def reverse(self, x: int) -> int:
-
-        x = str(x)
-        rev = None
-
-        if x[0] == '-':
-            x = x[1:]
-            rev = 0 - int(x[::-1])
-        else:
-            rev = x[::-1]
-
-
-        if int(rev) > 2**31 or int(rev) < -2**31:
-            return 0
-        else:
-            return int(rev)
+        y = list(str(x))
+        y.reverse()
+        negative = False
         
+        if y[-1] == "-":
+            negative = True
+            y.pop()
+
+        MAX = (2**31) - 1
+        MIN = (-2) ** 31
+        total = int(y[0])
+
+        for d in y[1:]:
+            
+            if (10 * total) + int(d) > MAX or (10 * total) + int(d) < MIN:
+                return 0
+
+            total = (10*total) + int(d)
+
+        return total if not negative else -total
