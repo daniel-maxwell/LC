@@ -3,7 +3,6 @@ class Solution:
         dp = [float('inf')] * (amount + 1)
         dp[0] = 0
         coinSet = set(coins)
-        coins.sort()
 
         for i in range(1, len(dp)):
 
