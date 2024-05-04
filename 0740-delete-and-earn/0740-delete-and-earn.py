@@ -21,6 +21,4 @@ class Solution:
             else:
                 dp[i] = dp[i-1] + (nums[i] * counts[nums[i]])
 
-        print(dp)
-
         return dp[-1]
