@@ -1,5 +1,4 @@
 class Solution:
     def countOdds(self, low: int, high: int) -> int:
-        low -= low % 2
-        high += high % 2
-        return math.floor((high - low) / 2)
+        add = 1 if low % 2 == 1 or high % 2 == 1 else 0
+        return ((high - low) // 2) + add
