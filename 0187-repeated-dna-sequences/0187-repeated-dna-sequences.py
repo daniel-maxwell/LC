@@ -1,14 +1,16 @@
 class Solution:
     def findRepeatedDnaSequences(self, s: str) -> List[str]:
-        oneOccurence, twoOrMore = set(), set()
-        window = ""
+        sequences, res = {}, []
         l, r = 0, 9
         while r < len(s):
-            window = ''.join(s[l:r+1])
-            if window in oneOccurence:
-                twoOrMore.add(window)
+            sequence = s[l:r+1]
+            if sequence in sequences:
+                if sequences[sequence] == 1:
+                    res.append(sequence)
+                    sequences[sequence] += 1
             else:
-                oneOccurence.add(window)
+                sequences[sequence] = 1
             l += 1
             r += 1
-        return list(twoOrMore)
+
+        return res
