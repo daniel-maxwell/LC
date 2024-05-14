@@ -3,14 +3,9 @@ class Solution:
         if len(nums) == 1:
             return nums[0]
 
-        maxCash = [nums[0], max(nums[0], nums[1])]
+        dp = [nums[0], max(nums[0], nums[1])]
 
-        i = 2
+        while len(dp) < len(nums):
+            dp.append(max(dp[-2] + nums[len(dp)], dp[-1]))
 
-        while i < len(nums):
-            tmp = maxCash[-1]
-            maxCash[-1] = max(maxCash[-2] + nums[i], maxCash[-1])
-            maxCash[-2] = tmp
-            i += 1
-        
-        return maxCash[-1]
+        return max(dp[-1], dp[-2])
