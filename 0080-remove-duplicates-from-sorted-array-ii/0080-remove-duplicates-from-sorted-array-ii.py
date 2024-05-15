@@ -1,25 +1,17 @@
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
-        originalLength = len(nums)
-        j = 0
-        k = 0
-        currElement = None
-
-        while j < originalLength:
-
-            if len(nums) < 3: return len(nums)
-
-            currElement = nums[len(nums) - 1]
-
-            if (currElement == nums[0] and currElement == nums[1]):
-                nums.pop()
-                j += 1
-                continue
-
+        counts = {}
+        k, i = 0, 0
+        while i < len(nums):
+            if counts.get(nums[i], 0) == 2:
+                nums.pop(i)
+                i -= 1
+                
             else:
-                nums.insert(0, currElement)
-                nums.pop()
-                j += 1
+                if nums[i] in counts:
+                    counts[nums[i]] += 1
+                else:
+                    counts[nums[i]] = 1
                 k += 1
-
-        return k
+            i += 1
+        return k + 1
