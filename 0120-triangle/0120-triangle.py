@@ -1,22 +1,11 @@
 class Solution:
     def minimumTotal(self, triangle: List[List[int]]) -> int:
-        minPath = [[triangle[0][0]]]
-        res = minPath[0][0]
+
+        for r in range(1, len(triangle)):
+            for i in range(len(triangle[r])):
+                a = triangle[r-1][i-1] if i > 0 else float('inf')
+                b = triangle[r-1][i] if i < len(triangle[r-1]) else float('inf')
+                triangle[r][i] += min(a, b)
         
-        i = 1
-        while i < len(triangle):
-            row, minVal = [float('inf')] * len(triangle[i]), float('inf')
-
-            j = 0
-            while j < len(minPath[-1]):
-                row[j] = min(row[j], minPath[-1][j] + triangle[i][j])
-                row[j+1] = min(row[j+1], minPath[-1][j] + triangle[i][j+1])
-                minVal = min([row[j], row[j+1], minVal])
-                j += 1
-
-            res = minVal
-            minPath.pop()
-            minPath.append(row)
-            i += 1
-
-        return res
+        print(triangle)
+        return min(triangle[-1])
