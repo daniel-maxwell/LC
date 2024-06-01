@@ -18,16 +18,12 @@ class Solution:
         }
 
         mod = 10**9 + 7
-        state = [1] * 10
+        dp = [1] * 10
 
         for _ in range(n-1):
-            nextState = [0] * 10
-
-            for j in range(len(state)):
-                numWays = 0
-                for move in possibleMoves[j]:
-                    numWays += state[move]
-                nextState[j] = numWays
-            state = nextState
-
-        return sum(state) % mod
+            newDP = [0] * len(dp)
+            for i in range(len(dp)):
+                for move in possibleMoves[i]:
+                    newDP[i] += dp[move]
+            dp = newDP
+        return sum(dp) % mod
