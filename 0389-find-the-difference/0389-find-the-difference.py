@@ -1,10 +1,11 @@
 class Solution:
     def findTheDifference(self, s: str, t: str) -> str:
-        c = Counter(t)
+        res = 0
+
+        for char in t:
+            res ^= ord(char)
 
         for char in s:
-            c[char] -= 1
-            if c[char] == 0:
-                c.pop(char)
+            res ^= ord(char)
 
-        return c.popitem()[0]  
+        return chr(res)
