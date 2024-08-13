@@ -1,17 +1,19 @@
 class Solution {
 public:
     int timeRequiredToBuy(vector<int>& tickets, int k) {
-        deque<int> q = {};
-        q.insert(q.end(), tickets.begin(), tickets.end());
+        queue<int> q = {};
+        for (int ticket : tickets) {
+            q.push(ticket);
+        }
         uint16_t timeEllapsed = 0;
         uint8_t kPos = k;
         while (!q.empty()) {
             uint8_t customer = q.front();
-            q.pop_front();
+            q.pop();
             customer--;
             timeEllapsed++;
             if (customer > 0) {
-                q.push_back(customer);
+                q.push(customer);
                 if (kPos == 0) {
                     kPos = q.size();
                 }
