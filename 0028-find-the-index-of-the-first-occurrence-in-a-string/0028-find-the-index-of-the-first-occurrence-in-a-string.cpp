@@ -1,16 +1,8 @@
 class Solution {
 public:
     int strStr(string haystack, string needle) {
-        if (haystack.size() <= needle.size()) {
-                if (needle.compare(haystack) == 0) return 0;
-                else return -1;
-            }
-            else {
-                for (int i = 0; i < haystack.size() - needle.size() +1; ++i) {
-                    string substr = haystack.substr(i, needle.size());
-                    if (substr.compare(needle) == 0) return i;
-                }
-            }
-            return -1;
+        size_t idx = haystack.find(needle);
+        int res = (idx == string::npos) ? -1 : static_cast<int>(idx);
+        return res;
     }
 };
