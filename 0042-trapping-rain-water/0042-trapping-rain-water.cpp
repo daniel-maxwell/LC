@@ -14,12 +14,10 @@ public:
         }
 
         int totalWaterVolume = 0;
-
         for (int i = 0; i < minHeight.size(); ++i) {
             const int vol = minHeight[i] - height[i] > 0 ? minHeight[i] - height[i] : 0;
             totalWaterVolume += vol;
         }
-
         return totalWaterVolume;
     }
 };
