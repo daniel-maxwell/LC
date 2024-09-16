@@ -1,3 +1,5 @@
+static auto _ = [](){ios::sync_with_stdio(false); cin.tie(nullptr); return nullptr;}();
+
 class Solution {
 public:
     vector<int> getSumAbsoluteDifferences(vector<int>& nums) {
