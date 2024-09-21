@@ -1,4 +1,3 @@
-#pragma once
 static const bool _ = [](){
     std::ios_base::sync_with_stdio(false);
     std::cout.tie(nullptr);
