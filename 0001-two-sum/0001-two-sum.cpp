@@ -1,14 +1,17 @@
+static const bool Booster = [](){
+    std::ios_base::sync_with_stdio(false);
+    std::cout.tie(nullptr);
+    std::cin.tie(nullptr);
+    return true;
+}();
 class Solution {
 public:
-    vector<int> twoSum(vector<int>& nums, int target) {
-        map<int, int> prevMap;
+    vector<int> twoSum(const vector<int>& nums, const int target) {
+        map<int, int>numsToIdx;
         for (int i = 0; i < nums.size(); ++i) {
-            int diff = target - nums[i];
-            if (prevMap.find(diff) != prevMap.end()) {
-                return { prevMap[diff], i };
-            }
-            else prevMap[nums[i]] = i;
+            if (numsToIdx.contains(target - nums[i])) return vector<int> {numsToIdx.at(target - nums[i]), i};
+            numsToIdx[nums[i]] = i;
         }
-        return {0};
+        return nums;
     }
 };
