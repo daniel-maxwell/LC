@@ -6,25 +6,22 @@ static const bool a() {
 }
 class Solution {
 public:
-    const std::vector<std::vector<int>> findMatrix(vector<int>& nums) {
-        std::sort(nums.begin(), nums.end());
-        std::vector<std::set<int>> storage {{std::set<int>{}}};
-        int prev = -1;
+    std::vector<std::vector<int>> findMatrix(std::vector<int>& nums) {
+        std::map<int, int> counts;
+        int maxCount = 0;
+
         for (const int &num : nums) {
-            bool added = false;
-            for (int i = 0; i < storage.size(); ++i) {
-                if (!storage[i].contains(num)) {
-                    storage[i].insert(num);
-                    added = true;
-                    break;
-                }
-            }
-            if (!added) 
-                storage.push_back(set<int>{num});
+            ++counts[num];
+            if (counts[num] > maxCount) maxCount = counts[num];
         }
-        std::vector<std::vector<int>> result;
-        for (const std::set<int> &s : storage)
-            result.push_back(std::vector<int>(s.begin(), s.end()));
+        
+        std::vector<std::vector<int>> result(maxCount);
+        
+        for (const std::pair<int, int> &record : counts) {
+            for (int i = 0; i < record.second; ++i) {
+                result[i].push_back(record.first);
+            }
+        }
         return result;
     }
 };
