@@ -5,12 +5,13 @@ auto init = [](){
 class Solution {
 public:
     bool isPowerOfFour(int n) {
-        if (n < 0) return false;
-        for(int i = 0; i < 31; ++i){
-            if (n == pow(4, i)) {
-                return true;
-            }
+        if (n <= 0)
+            return false;
+        if (n > 1 && n % 4 == 0) {
+            return isPowerOfFour(n / 4);
+        } else if (n > 1 && (n % 4) != 0) {
+            return false;
         }
-        return false;
+        return true;
     }
 };
