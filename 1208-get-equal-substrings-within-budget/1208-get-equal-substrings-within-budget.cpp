@@ -1,3 +1,9 @@
+static const bool Booster = [](){
+    std::ios_base::sync_with_stdio(false);
+    std::cout.tie(nullptr);
+    std::cin.tie(nullptr);
+    return true;
+}();
 class Solution {
 public:
     const int equalSubstring(const string &s, const string &t, const int maxCost) {
