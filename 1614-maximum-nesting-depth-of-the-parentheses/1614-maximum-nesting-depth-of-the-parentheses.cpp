@@ -1,15 +1,13 @@
 class Solution {
 public:
-    int maxDepth(string s) {
+    const int maxDepth(const string s) {
         int maxDepth = 0;
         int curDepth = 0;
-        for (char c : s) {
+        for (const char &c : s) {
             if (c == '(') {
                 ++curDepth;
-            } else if (c == ')') {
-                --curDepth;
-            }
-            maxDepth = max(curDepth, maxDepth);
+                maxDepth = max(curDepth, maxDepth);
+            } else if (c == ')') --curDepth;
         }
         return maxDepth;
     }
