@@ -5,7 +5,7 @@ static const bool Booster = [](){
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
-        set<char> charSet;
+        unordered_set<char> charSet;
         int l = 0, r = 0;
         int result = 0;
         while (r < s.size()) {
