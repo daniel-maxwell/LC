@@ -1,3 +1,7 @@
+static const bool Init() {
+    std::ios_base::sync_with_stdio(false), std::cout.tie(nullptr), std::cin.tie(nullptr);
+    return true;
+}
 class TicTacToe {
 public:
     TicTacToe(int n) {
@@ -9,7 +13,7 @@ public:
         rightDiag = pair<int, int>{0, n};
     }
     
-    int move(int row, int col, int player) {
+    const int move(const int row, const int col, const int player) {
 
         if (rows[row].first == player || rows[row].first == 0) {
             rows[row].first = player;
