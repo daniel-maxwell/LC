@@ -5,8 +5,8 @@ auto init = [](){
 class Solution {
 public:
     const bool isIsomorphic(const string s, const string t) {
-        map<char, char> sToT;
-        map<char, char> tToS;
+        unordered_map<char, char> sToT;
+        unordered_map<char, char> tToS;
         for (int i = 0; i < s.size(); ++i) {
             if (sToT.contains(s[i]) && sToT[s[i]] != t[i]) return false;
             if (tToS.contains(t[i]) && tToS[t[i]] != s[i]) return false;
