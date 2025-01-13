@@ -1,11 +1,14 @@
+static const bool Init() {
+    std::ios_base::sync_with_stdio(false), std::cout.tie(nullptr), std::cin.tie(nullptr);
+    return true;
+}
 class Solution {
 public:
-    int ladderLength(string beginWord, string endWord, vector<string>& wordList) {
+    const int ladderLength(const string beginWord, const string endWord, const vector<string>& wordList) {
         unordered_set<string> visited {beginWord};
         queue<string> q; 
         q.push(beginWord);
         int result = 1;
-
         while (!q.empty()) {
             const int length = q.size();
             for (int _ = 0; _ < length; ++_) {
