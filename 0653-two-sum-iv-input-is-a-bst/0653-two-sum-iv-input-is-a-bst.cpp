@@ -11,7 +11,7 @@
  */
 class Solution {
 public:
-    bool findTarget(TreeNode* root, const int k) {
+    const bool findTarget(const TreeNode* root, const int k) {
         if (root == nullptr) return false;
         const bool result = visited.contains(k - root->val);
         visited.insert(root->val);
