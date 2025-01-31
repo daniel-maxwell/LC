@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0140-word-break-ii](https://github.com/daniel-maxwell/LC/tree/master/0140-word-break-ii) |
 | [0228-summary-ranges](https://github.com/daniel-maxwell/LC/tree/master/0228-summary-ranges) |
 | [0239-sliding-window-maximum](https://github.com/daniel-maxwell/LC/tree/master/0239-sliding-window-maximum) |
+| [0243-shortest-word-distance](https://github.com/daniel-maxwell/LC/tree/master/0243-shortest-word-distance) |
 | [0414-third-maximum-number](https://github.com/daniel-maxwell/LC/tree/master/0414-third-maximum-number) |
 | [0628-maximum-product-of-three-numbers](https://github.com/daniel-maxwell/LC/tree/master/0628-maximum-product-of-three-numbers) |
 | [0733-flood-fill](https://github.com/daniel-maxwell/LC/tree/master/0733-flood-fill) |
@@ -29,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0127-word-ladder](https://github.com/daniel-maxwell/LC/tree/master/0127-word-ladder) |
 | [0140-word-break-ii](https://github.com/daniel-maxwell/LC/tree/master/0140-word-break-ii) |
+| [0243-shortest-word-distance](https://github.com/daniel-maxwell/LC/tree/master/0243-shortest-word-distance) |
 | [0345-reverse-vowels-of-a-string](https://github.com/daniel-maxwell/LC/tree/master/0345-reverse-vowels-of-a-string) |
 | [0383-ransom-note](https://github.com/daniel-maxwell/LC/tree/master/0383-ransom-note) |
 | [0408-valid-word-abbreviation](https://github.com/daniel-maxwell/LC/tree/master/0408-valid-word-abbreviation) |
