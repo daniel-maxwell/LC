@@ -99,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0628-maximum-product-of-three-numbers](https://github.com/daniel-maxwell/LC/tree/master/0628-maximum-product-of-three-numbers) |
 | [1082-sum-of-digits-in-the-minimum-number](https://github.com/daniel-maxwell/LC/tree/master/1082-sum-of-digits-in-the-minimum-number) |
 | [1090-armstrong-number](https://github.com/daniel-maxwell/LC/tree/master/1090-armstrong-number) |
+| [2556-convert-the-temperature](https://github.com/daniel-maxwell/LC/tree/master/2556-convert-the-temperature) |
 ## Tree
 |  |
 | ------- |
