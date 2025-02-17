@@ -9,9 +9,13 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
+static const bool init = [](){
+    ios::sync_with_stdio(0), cin.tie(0), cout.tie(0);
+    return false;
+}();
 class Solution {
 public:
-    vector<vector<int>> pathSum(TreeNode* root, int targetSum) {
+    const vector<vector<int>> pathSum(const TreeNode* root, const int targetSum) {
 
         if (root == nullptr) return result;
 
