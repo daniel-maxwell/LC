@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0643-maximum-average-subarray-i](https://github.com/daniel-maxwell/LC/tree/master/0643-maximum-average-subarray-i) |
 | [0733-flood-fill](https://github.com/daniel-maxwell/LC/tree/master/0733-flood-fill) |
 | [0745-find-smallest-letter-greater-than-target](https://github.com/daniel-maxwell/LC/tree/master/0745-find-smallest-letter-greater-than-target) |
+| [0749-shortest-completing-word](https://github.com/daniel-maxwell/LC/tree/master/0749-shortest-completing-word) |
 | [0837-most-common-word](https://github.com/daniel-maxwell/LC/tree/master/0837-most-common-word) |
 | [1082-sum-of-digits-in-the-minimum-number](https://github.com/daniel-maxwell/LC/tree/master/1082-sum-of-digits-in-the-minimum-number) |
 | [1083-two-sum-less-than-k](https://github.com/daniel-maxwell/LC/tree/master/1083-two-sum-less-than-k) |
@@ -45,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0345-reverse-vowels-of-a-string](https://github.com/daniel-maxwell/LC/tree/master/0345-reverse-vowels-of-a-string) |
 | [0383-ransom-note](https://github.com/daniel-maxwell/LC/tree/master/0383-ransom-note) |
 | [0408-valid-word-abbreviation](https://github.com/daniel-maxwell/LC/tree/master/0408-valid-word-abbreviation) |
+| [0749-shortest-completing-word](https://github.com/daniel-maxwell/LC/tree/master/0749-shortest-completing-word) |
 | [0782-jewels-and-stones](https://github.com/daniel-maxwell/LC/tree/master/0782-jewels-and-stones) |
 | [0837-most-common-word](https://github.com/daniel-maxwell/LC/tree/master/0837-most-common-word) |
 | [1089-remove-vowels-from-a-string](https://github.com/daniel-maxwell/LC/tree/master/1089-remove-vowels-from-a-string) |
@@ -58,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0140-word-break-ii](https://github.com/daniel-maxwell/LC/tree/master/0140-word-break-ii) |
 | [0383-ransom-note](https://github.com/daniel-maxwell/LC/tree/master/0383-ransom-note) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/daniel-maxwell/LC/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0749-shortest-completing-word](https://github.com/daniel-maxwell/LC/tree/master/0749-shortest-completing-word) |
 | [0782-jewels-and-stones](https://github.com/daniel-maxwell/LC/tree/master/0782-jewels-and-stones) |
 | [0837-most-common-word](https://github.com/daniel-maxwell/LC/tree/master/0837-most-common-word) |
 | [1319-unique-number-of-occurrences](https://github.com/daniel-maxwell/LC/tree/master/1319-unique-number-of-occurrences) |
