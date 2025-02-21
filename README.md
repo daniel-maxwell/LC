@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0408-valid-word-abbreviation](https://github.com/daniel-maxwell/LC/tree/master/0408-valid-word-abbreviation) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/daniel-maxwell/LC/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [1083-two-sum-less-than-k](https://github.com/daniel-maxwell/LC/tree/master/1083-two-sum-less-than-k) |
+| [2481-strictly-palindromic-number](https://github.com/daniel-maxwell/LC/tree/master/2481-strictly-palindromic-number) |
 ## String
 |  |
 | ------- |
@@ -126,6 +127,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0866-rectangle-overlap](https://github.com/daniel-maxwell/LC/tree/master/0866-rectangle-overlap) |
 | [1082-sum-of-digits-in-the-minimum-number](https://github.com/daniel-maxwell/LC/tree/master/1082-sum-of-digits-in-the-minimum-number) |
 | [1090-armstrong-number](https://github.com/daniel-maxwell/LC/tree/master/1090-armstrong-number) |
+| [2481-strictly-palindromic-number](https://github.com/daniel-maxwell/LC/tree/master/2481-strictly-palindromic-number) |
 | [2556-convert-the-temperature](https://github.com/daniel-maxwell/LC/tree/master/2556-convert-the-temperature) |
 ## Tree
 |  |
@@ -183,4 +185,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0866-rectangle-overlap](https://github.com/daniel-maxwell/LC/tree/master/0866-rectangle-overlap) |
+## Brainteaser
+|  |
+| ------- |
+| [2481-strictly-palindromic-number](https://github.com/daniel-maxwell/LC/tree/master/2481-strictly-palindromic-number) |
 <!---LeetCode Topics End-->
