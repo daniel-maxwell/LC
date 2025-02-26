@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1646-kth-missing-positive-number](https://github.com/daniel-maxwell/LC/tree/master/1646-kth-missing-positive-number) |
 | [1791-richest-customer-wealth](https://github.com/daniel-maxwell/LC/tree/master/1791-richest-customer-wealth) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/daniel-maxwell/LC/tree/master/2137-final-value-of-variable-after-performing-operations) |
+| [2474-minimum-adjacent-swaps-to-make-a-valid-array](https://github.com/daniel-maxwell/LC/tree/master/2474-minimum-adjacent-swaps-to-make-a-valid-array) |
 ## Binary Search
 |  |
 | ------- |
@@ -189,6 +190,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1341-split-a-string-in-balanced-strings](https://github.com/daniel-maxwell/LC/tree/master/1341-split-a-string-in-balanced-strings) |
+| [2474-minimum-adjacent-swaps-to-make-a-valid-array](https://github.com/daniel-maxwell/LC/tree/master/2474-minimum-adjacent-swaps-to-make-a-valid-array) |
 ## Linked List
 |  |
 | ------- |
