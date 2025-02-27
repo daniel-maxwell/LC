@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0246-strobogrammatic-number](https://github.com/daniel-maxwell/LC/tree/master/0246-strobogrammatic-number) |
 | [0345-reverse-vowels-of-a-string](https://github.com/daniel-maxwell/LC/tree/master/0345-reverse-vowels-of-a-string) |
 | [0408-valid-word-abbreviation](https://github.com/daniel-maxwell/LC/tree/master/0408-valid-word-abbreviation) |
+| [0443-string-compression](https://github.com/daniel-maxwell/LC/tree/master/0443-string-compression) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/daniel-maxwell/LC/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [1083-two-sum-less-than-k](https://github.com/daniel-maxwell/LC/tree/master/1083-two-sum-less-than-k) |
 | [2481-strictly-palindromic-number](https://github.com/daniel-maxwell/LC/tree/master/2481-strictly-palindromic-number) |
@@ -51,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0345-reverse-vowels-of-a-string](https://github.com/daniel-maxwell/LC/tree/master/0345-reverse-vowels-of-a-string) |
 | [0383-ransom-note](https://github.com/daniel-maxwell/LC/tree/master/0383-ransom-note) |
 | [0408-valid-word-abbreviation](https://github.com/daniel-maxwell/LC/tree/master/0408-valid-word-abbreviation) |
+| [0443-string-compression](https://github.com/daniel-maxwell/LC/tree/master/0443-string-compression) |
 | [0749-shortest-completing-word](https://github.com/daniel-maxwell/LC/tree/master/0749-shortest-completing-word) |
 | [0782-jewels-and-stones](https://github.com/daniel-maxwell/LC/tree/master/0782-jewels-and-stones) |
 | [0837-most-common-word](https://github.com/daniel-maxwell/LC/tree/master/0837-most-common-word) |
