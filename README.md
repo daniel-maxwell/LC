@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0018-4sum](https://github.com/daniel-maxwell/LC/tree/master/0018-4sum) |
 | [0140-word-break-ii](https://github.com/daniel-maxwell/LC/tree/master/0140-word-break-ii) |
 | [0228-summary-ranges](https://github.com/daniel-maxwell/LC/tree/master/0228-summary-ranges) |
+| [0238-product-of-array-except-self](https://github.com/daniel-maxwell/LC/tree/master/0238-product-of-array-except-self) |
 | [0239-sliding-window-maximum](https://github.com/daniel-maxwell/LC/tree/master/0239-sliding-window-maximum) |
 | [0243-shortest-word-distance](https://github.com/daniel-maxwell/LC/tree/master/0243-shortest-word-distance) |
 | [0414-third-maximum-number](https://github.com/daniel-maxwell/LC/tree/master/0414-third-maximum-number) |
@@ -187,6 +188,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 |  |
 | ------- |
+| [0238-product-of-array-except-self](https://github.com/daniel-maxwell/LC/tree/master/0238-product-of-array-except-self) |
 | [1603-running-sum-of-1d-array](https://github.com/daniel-maxwell/LC/tree/master/1603-running-sum-of-1d-array) |
 ## Greedy
 |  |
