@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0749-shortest-completing-word](https://github.com/daniel-maxwell/LC/tree/master/0749-shortest-completing-word) |
 | [0837-most-common-word](https://github.com/daniel-maxwell/LC/tree/master/0837-most-common-word) |
 | [0967-minimum-falling-path-sum](https://github.com/daniel-maxwell/LC/tree/master/0967-minimum-falling-path-sum) |
+| [1056-capacity-to-ship-packages-within-d-days](https://github.com/daniel-maxwell/LC/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1082-sum-of-digits-in-the-minimum-number](https://github.com/daniel-maxwell/LC/tree/master/1082-sum-of-digits-in-the-minimum-number) |
 | [1083-two-sum-less-than-k](https://github.com/daniel-maxwell/LC/tree/master/1083-two-sum-less-than-k) |
 | [1319-unique-number-of-occurrences](https://github.com/daniel-maxwell/LC/tree/master/1319-unique-number-of-occurrences) |
@@ -31,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0745-find-smallest-letter-greater-than-target](https://github.com/daniel-maxwell/LC/tree/master/0745-find-smallest-letter-greater-than-target) |
+| [1056-capacity-to-ship-packages-within-d-days](https://github.com/daniel-maxwell/LC/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1083-two-sum-less-than-k](https://github.com/daniel-maxwell/LC/tree/master/1083-two-sum-less-than-k) |
 | [1646-kth-missing-positive-number](https://github.com/daniel-maxwell/LC/tree/master/1646-kth-missing-positive-number) |
 ## Two Pointers
