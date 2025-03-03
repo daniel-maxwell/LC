@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/daniel-maxwell/LC/tree/master/0001-two-sum) |
 | [0018-4sum](https://github.com/daniel-maxwell/LC/tree/master/0018-4sum) |
 | [0140-word-break-ii](https://github.com/daniel-maxwell/LC/tree/master/0140-word-break-ii) |
+| [0198-house-robber](https://github.com/daniel-maxwell/LC/tree/master/0198-house-robber) |
 | [0228-summary-ranges](https://github.com/daniel-maxwell/LC/tree/master/0228-summary-ranges) |
 | [0238-product-of-array-except-self](https://github.com/daniel-maxwell/LC/tree/master/0238-product-of-array-except-self) |
 | [0239-sliding-window-maximum](https://github.com/daniel-maxwell/LC/tree/master/0239-sliding-window-maximum) |
@@ -103,6 +104,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0140-word-break-ii](https://github.com/daniel-maxwell/LC/tree/master/0140-word-break-ii) |
+| [0198-house-robber](https://github.com/daniel-maxwell/LC/tree/master/0198-house-robber) |
 | [0967-minimum-falling-path-sum](https://github.com/daniel-maxwell/LC/tree/master/0967-minimum-falling-path-sum) |
 ## Backtracking
 |  |
