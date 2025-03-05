@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/daniel-maxwell/LC/tree/master/0001-two-sum) |
 | [0018-4sum](https://github.com/daniel-maxwell/LC/tree/master/0018-4sum) |
+| [0074-search-a-2d-matrix](https://github.com/daniel-maxwell/LC/tree/master/0074-search-a-2d-matrix) |
 | [0128-longest-consecutive-sequence](https://github.com/daniel-maxwell/LC/tree/master/0128-longest-consecutive-sequence) |
 | [0140-word-break-ii](https://github.com/daniel-maxwell/LC/tree/master/0140-word-break-ii) |
 | [0198-house-robber](https://github.com/daniel-maxwell/LC/tree/master/0198-house-robber) |
@@ -33,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [0074-search-a-2d-matrix](https://github.com/daniel-maxwell/LC/tree/master/0074-search-a-2d-matrix) |
 | [0745-find-smallest-letter-greater-than-target](https://github.com/daniel-maxwell/LC/tree/master/0745-find-smallest-letter-greater-than-target) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/daniel-maxwell/LC/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1083-two-sum-less-than-k](https://github.com/daniel-maxwell/LC/tree/master/1083-two-sum-less-than-k) |
@@ -182,6 +184,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0074-search-a-2d-matrix](https://github.com/daniel-maxwell/LC/tree/master/0074-search-a-2d-matrix) |
 | [0733-flood-fill](https://github.com/daniel-maxwell/LC/tree/master/0733-flood-fill) |
 | [0967-minimum-falling-path-sum](https://github.com/daniel-maxwell/LC/tree/master/0967-minimum-falling-path-sum) |
 | [1791-richest-customer-wealth](https://github.com/daniel-maxwell/LC/tree/master/1791-richest-customer-wealth) |
