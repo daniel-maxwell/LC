@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0238-product-of-array-except-self](https://github.com/daniel-maxwell/LC/tree/master/0238-product-of-array-except-self) |
 | [0239-sliding-window-maximum](https://github.com/daniel-maxwell/LC/tree/master/0239-sliding-window-maximum) |
 | [0243-shortest-word-distance](https://github.com/daniel-maxwell/LC/tree/master/0243-shortest-word-distance) |
+| [0346-moving-average-from-data-stream](https://github.com/daniel-maxwell/LC/tree/master/0346-moving-average-from-data-stream) |
 | [0414-third-maximum-number](https://github.com/daniel-maxwell/LC/tree/master/0414-third-maximum-number) |
 | [0628-maximum-product-of-three-numbers](https://github.com/daniel-maxwell/LC/tree/master/0628-maximum-product-of-three-numbers) |
 | [0643-maximum-average-subarray-i](https://github.com/daniel-maxwell/LC/tree/master/0643-maximum-average-subarray-i) |
@@ -129,6 +130,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/daniel-maxwell/LC/tree/master/0239-sliding-window-maximum) |
+| [0346-moving-average-from-data-stream](https://github.com/daniel-maxwell/LC/tree/master/0346-moving-average-from-data-stream) |
 ## Sliding Window
 |  |
 | ------- |
@@ -230,4 +232,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1013-fibonacci-number](https://github.com/daniel-maxwell/LC/tree/master/1013-fibonacci-number) |
+## Design
+|  |
+| ------- |
+| [0346-moving-average-from-data-stream](https://github.com/daniel-maxwell/LC/tree/master/0346-moving-average-from-data-stream) |
+## Data Stream
+|  |
+| ------- |
+| [0346-moving-average-from-data-stream](https://github.com/daniel-maxwell/LC/tree/master/0346-moving-average-from-data-stream) |
 <!---LeetCode Topics End-->
