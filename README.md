@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0837-most-common-word](https://github.com/daniel-maxwell/LC/tree/master/0837-most-common-word) |
 | [0967-minimum-falling-path-sum](https://github.com/daniel-maxwell/LC/tree/master/0967-minimum-falling-path-sum) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/daniel-maxwell/LC/tree/master/1056-capacity-to-ship-packages-within-d-days) |
+| [1075-index-pairs-of-a-string](https://github.com/daniel-maxwell/LC/tree/master/1075-index-pairs-of-a-string) |
 | [1082-sum-of-digits-in-the-minimum-number](https://github.com/daniel-maxwell/LC/tree/master/1082-sum-of-digits-in-the-minimum-number) |
 | [1083-two-sum-less-than-k](https://github.com/daniel-maxwell/LC/tree/master/1083-two-sum-less-than-k) |
 | [1319-unique-number-of-occurrences](https://github.com/daniel-maxwell/LC/tree/master/1319-unique-number-of-occurrences) |
@@ -66,6 +67,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0782-jewels-and-stones](https://github.com/daniel-maxwell/LC/tree/master/0782-jewels-and-stones) |
 | [0837-most-common-word](https://github.com/daniel-maxwell/LC/tree/master/0837-most-common-word) |
 | [0889-buddy-strings](https://github.com/daniel-maxwell/LC/tree/master/0889-buddy-strings) |
+| [1075-index-pairs-of-a-string](https://github.com/daniel-maxwell/LC/tree/master/1075-index-pairs-of-a-string) |
 | [1089-remove-vowels-from-a-string](https://github.com/daniel-maxwell/LC/tree/master/1089-remove-vowels-from-a-string) |
 | [1341-split-a-string-in-balanced-strings](https://github.com/daniel-maxwell/LC/tree/master/1341-split-a-string-in-balanced-strings) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/daniel-maxwell/LC/tree/master/2137-final-value-of-variable-after-performing-operations) |
@@ -104,6 +106,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0018-4sum](https://github.com/daniel-maxwell/LC/tree/master/0018-4sum) |
 | [0414-third-maximum-number](https://github.com/daniel-maxwell/LC/tree/master/0414-third-maximum-number) |
 | [0628-maximum-product-of-three-numbers](https://github.com/daniel-maxwell/LC/tree/master/0628-maximum-product-of-three-numbers) |
+| [1075-index-pairs-of-a-string](https://github.com/daniel-maxwell/LC/tree/master/1075-index-pairs-of-a-string) |
 | [1083-two-sum-less-than-k](https://github.com/daniel-maxwell/LC/tree/master/1083-two-sum-less-than-k) |
 ## Dynamic Programming
 |  |
@@ -121,6 +124,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0140-word-break-ii](https://github.com/daniel-maxwell/LC/tree/master/0140-word-break-ii) |
+| [1075-index-pairs-of-a-string](https://github.com/daniel-maxwell/LC/tree/master/1075-index-pairs-of-a-string) |
 ## Memoization
 |  |
 | ------- |
