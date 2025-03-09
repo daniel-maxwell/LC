@@ -65,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0443-string-compression](https://github.com/daniel-maxwell/LC/tree/master/0443-string-compression) |
 | [0749-shortest-completing-word](https://github.com/daniel-maxwell/LC/tree/master/0749-shortest-completing-word) |
 | [0782-jewels-and-stones](https://github.com/daniel-maxwell/LC/tree/master/0782-jewels-and-stones) |
+| [0812-rotate-string](https://github.com/daniel-maxwell/LC/tree/master/0812-rotate-string) |
 | [0837-most-common-word](https://github.com/daniel-maxwell/LC/tree/master/0837-most-common-word) |
 | [0889-buddy-strings](https://github.com/daniel-maxwell/LC/tree/master/0889-buddy-strings) |
 | [1075-index-pairs-of-a-string](https://github.com/daniel-maxwell/LC/tree/master/1075-index-pairs-of-a-string) |
@@ -244,4 +245,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0346-moving-average-from-data-stream](https://github.com/daniel-maxwell/LC/tree/master/0346-moving-average-from-data-stream) |
+## String Matching
+|  |
+| ------- |
+| [0812-rotate-string](https://github.com/daniel-maxwell/LC/tree/master/0812-rotate-string) |
 <!---LeetCode Topics End-->
