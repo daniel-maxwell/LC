@@ -3,7 +3,7 @@ public:
     Logger() {
     }
     
-    bool shouldPrintMessage(int timestamp, string message) {
+    const bool shouldPrintMessage(const int timestamp, const string message) {
         bool result = false;
         if (!messages.contains(message) || timestamp >= messages[message] + 10) {
             result = true;
