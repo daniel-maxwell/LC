@@ -1,10 +1,7 @@
 class Solution {
 public:
     int distMoney(int money, int children) {
-
-        if (money < children) {
-            return -1;
-        }
+        if (money < children) return -1;
 
         money -= children;
 
@@ -16,7 +13,7 @@ public:
         while (i < childBalances.size()) {
             if (money < 7) {
                 if (childBalances[i] + money == 4) { 
-                    if (i == childBalances.size() - 1) {  // We're at the end of the array
+                    if (i == childBalances.size() - 1) {
                         --result;
                     }
                 } else {
