@@ -163,6 +163,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1090-armstrong-number](https://github.com/daniel-maxwell/LC/tree/master/1090-armstrong-number) |
 | [2481-strictly-palindromic-number](https://github.com/daniel-maxwell/LC/tree/master/2481-strictly-palindromic-number) |
 | [2556-convert-the-temperature](https://github.com/daniel-maxwell/LC/tree/master/2556-convert-the-temperature) |
+| [2663-distribute-money-to-maximum-children](https://github.com/daniel-maxwell/LC/tree/master/2663-distribute-money-to-maximum-children) |
 ## Tree
 |  |
 | ------- |
@@ -221,6 +222,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1341-split-a-string-in-balanced-strings](https://github.com/daniel-maxwell/LC/tree/master/1341-split-a-string-in-balanced-strings) |
 | [2474-minimum-adjacent-swaps-to-make-a-valid-array](https://github.com/daniel-maxwell/LC/tree/master/2474-minimum-adjacent-swaps-to-make-a-valid-array) |
+| [2663-distribute-money-to-maximum-children](https://github.com/daniel-maxwell/LC/tree/master/2663-distribute-money-to-maximum-children) |
 ## Linked List
 |  |
 | ------- |
