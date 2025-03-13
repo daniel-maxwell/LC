@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0749-shortest-completing-word](https://github.com/daniel-maxwell/LC/tree/master/0749-shortest-completing-word) |
 | [0837-most-common-word](https://github.com/daniel-maxwell/LC/tree/master/0837-most-common-word) |
 | [0967-minimum-falling-path-sum](https://github.com/daniel-maxwell/LC/tree/master/0967-minimum-falling-path-sum) |
+| [1018-largest-perimeter-triangle](https://github.com/daniel-maxwell/LC/tree/master/1018-largest-perimeter-triangle) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/daniel-maxwell/LC/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1075-index-pairs-of-a-string](https://github.com/daniel-maxwell/LC/tree/master/1075-index-pairs-of-a-string) |
 | [1082-sum-of-digits-in-the-minimum-number](https://github.com/daniel-maxwell/LC/tree/master/1082-sum-of-digits-in-the-minimum-number) |
@@ -110,6 +111,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0018-4sum](https://github.com/daniel-maxwell/LC/tree/master/0018-4sum) |
 | [0414-third-maximum-number](https://github.com/daniel-maxwell/LC/tree/master/0414-third-maximum-number) |
 | [0628-maximum-product-of-three-numbers](https://github.com/daniel-maxwell/LC/tree/master/0628-maximum-product-of-three-numbers) |
+| [1018-largest-perimeter-triangle](https://github.com/daniel-maxwell/LC/tree/master/1018-largest-perimeter-triangle) |
 | [1075-index-pairs-of-a-string](https://github.com/daniel-maxwell/LC/tree/master/1075-index-pairs-of-a-string) |
 | [1083-two-sum-less-than-k](https://github.com/daniel-maxwell/LC/tree/master/1083-two-sum-less-than-k) |
 | [3471-minimum-average-of-smallest-and-largest-elements](https://github.com/daniel-maxwell/LC/tree/master/3471-minimum-average-of-smallest-and-largest-elements) |
@@ -159,6 +161,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0628-maximum-product-of-three-numbers](https://github.com/daniel-maxwell/LC/tree/master/0628-maximum-product-of-three-numbers) |
 | [0866-rectangle-overlap](https://github.com/daniel-maxwell/LC/tree/master/0866-rectangle-overlap) |
 | [1013-fibonacci-number](https://github.com/daniel-maxwell/LC/tree/master/1013-fibonacci-number) |
+| [1018-largest-perimeter-triangle](https://github.com/daniel-maxwell/LC/tree/master/1018-largest-perimeter-triangle) |
 | [1082-sum-of-digits-in-the-minimum-number](https://github.com/daniel-maxwell/LC/tree/master/1082-sum-of-digits-in-the-minimum-number) |
 | [1090-armstrong-number](https://github.com/daniel-maxwell/LC/tree/master/1090-armstrong-number) |
 | [2481-strictly-palindromic-number](https://github.com/daniel-maxwell/LC/tree/master/2481-strictly-palindromic-number) |
@@ -220,6 +223,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [1018-largest-perimeter-triangle](https://github.com/daniel-maxwell/LC/tree/master/1018-largest-perimeter-triangle) |
 | [1341-split-a-string-in-balanced-strings](https://github.com/daniel-maxwell/LC/tree/master/1341-split-a-string-in-balanced-strings) |
 | [2474-minimum-adjacent-swaps-to-make-a-valid-array](https://github.com/daniel-maxwell/LC/tree/master/2474-minimum-adjacent-swaps-to-make-a-valid-array) |
 | [2663-distribute-money-to-maximum-children](https://github.com/daniel-maxwell/LC/tree/master/2663-distribute-money-to-maximum-children) |
