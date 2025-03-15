@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0749-shortest-completing-word](https://github.com/daniel-maxwell/LC/tree/master/0749-shortest-completing-word) |
 | [0837-most-common-word](https://github.com/daniel-maxwell/LC/tree/master/0837-most-common-word) |
 | [0967-minimum-falling-path-sum](https://github.com/daniel-maxwell/LC/tree/master/0967-minimum-falling-path-sum) |
+| [1014-k-closest-points-to-origin](https://github.com/daniel-maxwell/LC/tree/master/1014-k-closest-points-to-origin) |
 | [1018-largest-perimeter-triangle](https://github.com/daniel-maxwell/LC/tree/master/1018-largest-perimeter-triangle) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/daniel-maxwell/LC/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1074-high-five](https://github.com/daniel-maxwell/LC/tree/master/1074-high-five) |
@@ -113,6 +114,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0018-4sum](https://github.com/daniel-maxwell/LC/tree/master/0018-4sum) |
 | [0414-third-maximum-number](https://github.com/daniel-maxwell/LC/tree/master/0414-third-maximum-number) |
 | [0628-maximum-product-of-three-numbers](https://github.com/daniel-maxwell/LC/tree/master/0628-maximum-product-of-three-numbers) |
+| [1014-k-closest-points-to-origin](https://github.com/daniel-maxwell/LC/tree/master/1014-k-closest-points-to-origin) |
 | [1018-largest-perimeter-triangle](https://github.com/daniel-maxwell/LC/tree/master/1018-largest-perimeter-triangle) |
 | [1074-high-five](https://github.com/daniel-maxwell/LC/tree/master/1074-high-five) |
 | [1075-index-pairs-of-a-string](https://github.com/daniel-maxwell/LC/tree/master/1075-index-pairs-of-a-string) |
@@ -154,6 +156,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/daniel-maxwell/LC/tree/master/0239-sliding-window-maximum) |
+| [1014-k-closest-points-to-origin](https://github.com/daniel-maxwell/LC/tree/master/1014-k-closest-points-to-origin) |
 | [1074-high-five](https://github.com/daniel-maxwell/LC/tree/master/1074-high-five) |
 ## Monotonic Queue
 |  |
@@ -165,6 +168,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0628-maximum-product-of-three-numbers](https://github.com/daniel-maxwell/LC/tree/master/0628-maximum-product-of-three-numbers) |
 | [0866-rectangle-overlap](https://github.com/daniel-maxwell/LC/tree/master/0866-rectangle-overlap) |
 | [1013-fibonacci-number](https://github.com/daniel-maxwell/LC/tree/master/1013-fibonacci-number) |
+| [1014-k-closest-points-to-origin](https://github.com/daniel-maxwell/LC/tree/master/1014-k-closest-points-to-origin) |
 | [1018-largest-perimeter-triangle](https://github.com/daniel-maxwell/LC/tree/master/1018-largest-perimeter-triangle) |
 | [1082-sum-of-digits-in-the-minimum-number](https://github.com/daniel-maxwell/LC/tree/master/1082-sum-of-digits-in-the-minimum-number) |
 | [1090-armstrong-number](https://github.com/daniel-maxwell/LC/tree/master/1090-armstrong-number) |
@@ -239,6 +243,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0866-rectangle-overlap](https://github.com/daniel-maxwell/LC/tree/master/0866-rectangle-overlap) |
+| [1014-k-closest-points-to-origin](https://github.com/daniel-maxwell/LC/tree/master/1014-k-closest-points-to-origin) |
 ## Brainteaser
 |  |
 | ------- |
@@ -265,4 +270,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0812-rotate-string](https://github.com/daniel-maxwell/LC/tree/master/0812-rotate-string) |
+## Divide and Conquer
+|  |
+| ------- |
+| [1014-k-closest-points-to-origin](https://github.com/daniel-maxwell/LC/tree/master/1014-k-closest-points-to-origin) |
+## Quickselect
+|  |
+| ------- |
+| [1014-k-closest-points-to-origin](https://github.com/daniel-maxwell/LC/tree/master/1014-k-closest-points-to-origin) |
 <!---LeetCode Topics End-->
