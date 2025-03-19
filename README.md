@@ -63,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0076-minimum-window-substring](https://github.com/daniel-maxwell/LC/tree/master/0076-minimum-window-substring) |
 | [0127-word-ladder](https://github.com/daniel-maxwell/LC/tree/master/0127-word-ladder) |
 | [0140-word-break-ii](https://github.com/daniel-maxwell/LC/tree/master/0140-word-break-ii) |
 | [0243-shortest-word-distance](https://github.com/daniel-maxwell/LC/tree/master/0243-shortest-word-distance) |
@@ -85,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/daniel-maxwell/LC/tree/master/0001-two-sum) |
+| [0076-minimum-window-substring](https://github.com/daniel-maxwell/LC/tree/master/0076-minimum-window-substring) |
 | [0127-word-ladder](https://github.com/daniel-maxwell/LC/tree/master/0127-word-ladder) |
 | [0128-longest-consecutive-sequence](https://github.com/daniel-maxwell/LC/tree/master/0128-longest-consecutive-sequence) |
 | [0140-word-break-ii](https://github.com/daniel-maxwell/LC/tree/master/0140-word-break-ii) |
@@ -155,6 +157,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sliding Window
 |  |
 | ------- |
+| [0076-minimum-window-substring](https://github.com/daniel-maxwell/LC/tree/master/0076-minimum-window-substring) |
 | [0239-sliding-window-maximum](https://github.com/daniel-maxwell/LC/tree/master/0239-sliding-window-maximum) |
 | [0643-maximum-average-subarray-i](https://github.com/daniel-maxwell/LC/tree/master/0643-maximum-average-subarray-i) |
 ## Heap (Priority Queue)
