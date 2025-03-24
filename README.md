@@ -32,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1075-index-pairs-of-a-string](https://github.com/daniel-maxwell/LC/tree/master/1075-index-pairs-of-a-string) |
 | [1082-sum-of-digits-in-the-minimum-number](https://github.com/daniel-maxwell/LC/tree/master/1082-sum-of-digits-in-the-minimum-number) |
 | [1083-two-sum-less-than-k](https://github.com/daniel-maxwell/LC/tree/master/1083-two-sum-less-than-k) |
+| [1127-last-stone-weight](https://github.com/daniel-maxwell/LC/tree/master/1127-last-stone-weight) |
 | [1319-unique-number-of-occurrences](https://github.com/daniel-maxwell/LC/tree/master/1319-unique-number-of-occurrences) |
 | [1603-running-sum-of-1d-array](https://github.com/daniel-maxwell/LC/tree/master/1603-running-sum-of-1d-array) |
 | [1646-kth-missing-positive-number](https://github.com/daniel-maxwell/LC/tree/master/1646-kth-missing-positive-number) |
@@ -171,6 +172,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0239-sliding-window-maximum](https://github.com/daniel-maxwell/LC/tree/master/0239-sliding-window-maximum) |
 | [1014-k-closest-points-to-origin](https://github.com/daniel-maxwell/LC/tree/master/1014-k-closest-points-to-origin) |
 | [1074-high-five](https://github.com/daniel-maxwell/LC/tree/master/1074-high-five) |
+| [1127-last-stone-weight](https://github.com/daniel-maxwell/LC/tree/master/1127-last-stone-weight) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/daniel-maxwell/LC/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 ## Monotonic Queue
 |  |
