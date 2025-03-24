@@ -1,35 +1,25 @@
 class Solution {
 public:
     int partitionDisjoint(vector<int>& nums) {
+        
+        vector<int> maximumLeft {nums[0]};
+        vector<int> minimumRight(nums.size(), 0);
+        minimumRight[minimumRight.size() - 1] = nums.back();
 
-        vector<int> numsSorted(nums.begin(), nums.end());
-        sort(numsSorted.begin(), numsSorted.end());
-
-        unordered_map<int, int> orderToNumber; // Ranking of smallest to largest
-        unordered_map<int, int> numberToOrder; // Where each number falls in ranking
-        unordered_map<int, int> orderToIndex; // The index of that number in nums
-
-        for (int i = 0; i < numsSorted.size(); ++i) {
-            orderToNumber[i] = numsSorted[i];
-            numberToOrder[numsSorted[i]] = i;
+        int maxLeft = nums[0];
+        for (int i = 1; i < nums.size(); ++i) {
+            maxLeft = max(maxLeft, nums[i]);
+            maximumLeft.push_back(maxLeft);
         }
 
-        for (int i = 0; i < nums.size(); ++i) {
-            const int ranking = numberToOrder[nums[i]];
-            orderToIndex[ranking] = i;
+        int minRight = nums.back();
+        for (int i = nums.size() - 2; i >= 0; --i) {
+            minRight = min(minRight, nums[i]);
+            minimumRight[i] = minRight;
         }
 
-        int maximumLeft = nums[0];
-        int minimumRight = orderToIndex[0] == 0 ? orderToNumber[1] : orderToNumber[0];
-        int orderIndex = orderToIndex[0] == 0 ? 1 : 0;
-
-        for (int i = 0; i < nums.size(); ++i) {
-            maximumLeft = max(maximumLeft, nums[i]);
-            while (orderToIndex[orderIndex] < i + 1) {
-                ++orderIndex;
-                minimumRight = orderToNumber[orderIndex];
-            }
-            if (maximumLeft <= minimumRight) {
+        for (int i = 0; i < nums.size() - 1; ++i) {
+            if (maximumLeft[i] <= minimumRight[i+1]) {
                 return i + 1;
             }
         }
