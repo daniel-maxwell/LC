@@ -139,6 +139,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/daniel-maxwell/LC/tree/master/0070-climbing-stairs) |
 | [0140-word-break-ii](https://github.com/daniel-maxwell/LC/tree/master/0140-word-break-ii) |
 | [0198-house-robber](https://github.com/daniel-maxwell/LC/tree/master/0198-house-robber) |
 | [0967-minimum-falling-path-sum](https://github.com/daniel-maxwell/LC/tree/master/0967-minimum-falling-path-sum) |
@@ -157,6 +158,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Memoization
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/daniel-maxwell/LC/tree/master/0070-climbing-stairs) |
 | [0140-word-break-ii](https://github.com/daniel-maxwell/LC/tree/master/0140-word-break-ii) |
 | [1013-fibonacci-number](https://github.com/daniel-maxwell/LC/tree/master/1013-fibonacci-number) |
 ## Queue
@@ -186,6 +188,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/daniel-maxwell/LC/tree/master/0070-climbing-stairs) |
 | [0628-maximum-product-of-three-numbers](https://github.com/daniel-maxwell/LC/tree/master/0628-maximum-product-of-three-numbers) |
 | [0866-rectangle-overlap](https://github.com/daniel-maxwell/LC/tree/master/0866-rectangle-overlap) |
 | [1013-fibonacci-number](https://github.com/daniel-maxwell/LC/tree/master/1013-fibonacci-number) |
