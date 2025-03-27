@@ -78,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0408-valid-word-abbreviation](https://github.com/daniel-maxwell/LC/tree/master/0408-valid-word-abbreviation) |
 | [0443-string-compression](https://github.com/daniel-maxwell/LC/tree/master/0443-string-compression) |
 | [0749-shortest-completing-word](https://github.com/daniel-maxwell/LC/tree/master/0749-shortest-completing-word) |
+| [0778-reorganize-string](https://github.com/daniel-maxwell/LC/tree/master/0778-reorganize-string) |
 | [0782-jewels-and-stones](https://github.com/daniel-maxwell/LC/tree/master/0782-jewels-and-stones) |
 | [0812-rotate-string](https://github.com/daniel-maxwell/LC/tree/master/0812-rotate-string) |
 | [0837-most-common-word](https://github.com/daniel-maxwell/LC/tree/master/0837-most-common-word) |
@@ -101,6 +102,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0383-ransom-note](https://github.com/daniel-maxwell/LC/tree/master/0383-ransom-note) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/daniel-maxwell/LC/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0749-shortest-completing-word](https://github.com/daniel-maxwell/LC/tree/master/0749-shortest-completing-word) |
+| [0778-reorganize-string](https://github.com/daniel-maxwell/LC/tree/master/0778-reorganize-string) |
 | [0782-jewels-and-stones](https://github.com/daniel-maxwell/LC/tree/master/0782-jewels-and-stones) |
 | [0837-most-common-word](https://github.com/daniel-maxwell/LC/tree/master/0837-most-common-word) |
 | [0889-buddy-strings](https://github.com/daniel-maxwell/LC/tree/master/0889-buddy-strings) |
@@ -113,6 +115,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0383-ransom-note](https://github.com/daniel-maxwell/LC/tree/master/0383-ransom-note) |
+| [0778-reorganize-string](https://github.com/daniel-maxwell/LC/tree/master/0778-reorganize-string) |
 | [0837-most-common-word](https://github.com/daniel-maxwell/LC/tree/master/0837-most-common-word) |
 | [1341-split-a-string-in-balanced-strings](https://github.com/daniel-maxwell/LC/tree/master/1341-split-a-string-in-balanced-strings) |
 ## Breadth-First Search
@@ -130,6 +133,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0295-find-median-from-data-stream](https://github.com/daniel-maxwell/LC/tree/master/0295-find-median-from-data-stream) |
 | [0414-third-maximum-number](https://github.com/daniel-maxwell/LC/tree/master/0414-third-maximum-number) |
 | [0628-maximum-product-of-three-numbers](https://github.com/daniel-maxwell/LC/tree/master/0628-maximum-product-of-three-numbers) |
+| [0778-reorganize-string](https://github.com/daniel-maxwell/LC/tree/master/0778-reorganize-string) |
 | [1014-k-closest-points-to-origin](https://github.com/daniel-maxwell/LC/tree/master/1014-k-closest-points-to-origin) |
 | [1018-largest-perimeter-triangle](https://github.com/daniel-maxwell/LC/tree/master/1018-largest-perimeter-triangle) |
 | [1074-high-five](https://github.com/daniel-maxwell/LC/tree/master/1074-high-five) |
@@ -179,6 +183,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/daniel-maxwell/LC/tree/master/0239-sliding-window-maximum) |
 | [0295-find-median-from-data-stream](https://github.com/daniel-maxwell/LC/tree/master/0295-find-median-from-data-stream) |
+| [0778-reorganize-string](https://github.com/daniel-maxwell/LC/tree/master/0778-reorganize-string) |
 | [1014-k-closest-points-to-origin](https://github.com/daniel-maxwell/LC/tree/master/1014-k-closest-points-to-origin) |
 | [1074-high-five](https://github.com/daniel-maxwell/LC/tree/master/1074-high-five) |
 | [1127-last-stone-weight](https://github.com/daniel-maxwell/LC/tree/master/1127-last-stone-weight) |
@@ -272,6 +277,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0778-reorganize-string](https://github.com/daniel-maxwell/LC/tree/master/0778-reorganize-string) |
 | [1018-largest-perimeter-triangle](https://github.com/daniel-maxwell/LC/tree/master/1018-largest-perimeter-triangle) |
 | [1341-split-a-string-in-balanced-strings](https://github.com/daniel-maxwell/LC/tree/master/1341-split-a-string-in-balanced-strings) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/daniel-maxwell/LC/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
