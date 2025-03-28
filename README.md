@@ -63,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/daniel-maxwell/LC/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0861-flipping-an-image](https://github.com/daniel-maxwell/LC/tree/master/0861-flipping-an-image) |
 | [1083-two-sum-less-than-k](https://github.com/daniel-maxwell/LC/tree/master/1083-two-sum-less-than-k) |
+| [1894-merge-strings-alternately](https://github.com/daniel-maxwell/LC/tree/master/1894-merge-strings-alternately) |
 | [2481-strictly-palindromic-number](https://github.com/daniel-maxwell/LC/tree/master/2481-strictly-palindromic-number) |
 | [3471-minimum-average-of-smallest-and-largest-elements](https://github.com/daniel-maxwell/LC/tree/master/3471-minimum-average-of-smallest-and-largest-elements) |
 ## String
@@ -86,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1075-index-pairs-of-a-string](https://github.com/daniel-maxwell/LC/tree/master/1075-index-pairs-of-a-string) |
 | [1089-remove-vowels-from-a-string](https://github.com/daniel-maxwell/LC/tree/master/1089-remove-vowels-from-a-string) |
 | [1341-split-a-string-in-balanced-strings](https://github.com/daniel-maxwell/LC/tree/master/1341-split-a-string-in-balanced-strings) |
+| [1894-merge-strings-alternately](https://github.com/daniel-maxwell/LC/tree/master/1894-merge-strings-alternately) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/daniel-maxwell/LC/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [3379-score-of-a-string](https://github.com/daniel-maxwell/LC/tree/master/3379-score-of-a-string) |
 ## Hash Table
