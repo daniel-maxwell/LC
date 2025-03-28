@@ -87,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0889-buddy-strings](https://github.com/daniel-maxwell/LC/tree/master/0889-buddy-strings) |
 | [1075-index-pairs-of-a-string](https://github.com/daniel-maxwell/LC/tree/master/1075-index-pairs-of-a-string) |
 | [1089-remove-vowels-from-a-string](https://github.com/daniel-maxwell/LC/tree/master/1089-remove-vowels-from-a-string) |
+| [1128-remove-all-adjacent-duplicates-in-string](https://github.com/daniel-maxwell/LC/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1341-split-a-string-in-balanced-strings](https://github.com/daniel-maxwell/LC/tree/master/1341-split-a-string-in-balanced-strings) |
 | [1894-merge-strings-alternately](https://github.com/daniel-maxwell/LC/tree/master/1894-merge-strings-alternately) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/daniel-maxwell/LC/tree/master/2137-final-value-of-variable-after-performing-operations) |
@@ -266,6 +267,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/daniel-maxwell/LC/tree/master/0776-n-ary-tree-postorder-traversal) |
+| [1128-remove-all-adjacent-duplicates-in-string](https://github.com/daniel-maxwell/LC/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 ## Simulation
 |  |
 | ------- |
