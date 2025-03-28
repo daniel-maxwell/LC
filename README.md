@@ -69,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0014-longest-common-prefix](https://github.com/daniel-maxwell/LC/tree/master/0014-longest-common-prefix) |
 | [0076-minimum-window-substring](https://github.com/daniel-maxwell/LC/tree/master/0076-minimum-window-substring) |
 | [0127-word-ladder](https://github.com/daniel-maxwell/LC/tree/master/0127-word-ladder) |
 | [0140-word-break-ii](https://github.com/daniel-maxwell/LC/tree/master/0140-word-break-ii) |
@@ -161,6 +162,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Trie
 |  |
 | ------- |
+| [0014-longest-common-prefix](https://github.com/daniel-maxwell/LC/tree/master/0014-longest-common-prefix) |
 | [0140-word-break-ii](https://github.com/daniel-maxwell/LC/tree/master/0140-word-break-ii) |
 | [1075-index-pairs-of-a-string](https://github.com/daniel-maxwell/LC/tree/master/1075-index-pairs-of-a-string) |
 ## Memoization
