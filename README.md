@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/daniel-maxwell/LC/tree/master/0001-two-sum) |
 | [0018-4sum](https://github.com/daniel-maxwell/LC/tree/master/0018-4sum) |
+| [0056-merge-intervals](https://github.com/daniel-maxwell/LC/tree/master/0056-merge-intervals) |
 | [0074-search-a-2d-matrix](https://github.com/daniel-maxwell/LC/tree/master/0074-search-a-2d-matrix) |
 | [0078-subsets](https://github.com/daniel-maxwell/LC/tree/master/0078-subsets) |
 | [0128-longest-consecutive-sequence](https://github.com/daniel-maxwell/LC/tree/master/0128-longest-consecutive-sequence) |
@@ -134,6 +135,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0018-4sum](https://github.com/daniel-maxwell/LC/tree/master/0018-4sum) |
+| [0056-merge-intervals](https://github.com/daniel-maxwell/LC/tree/master/0056-merge-intervals) |
 | [0295-find-median-from-data-stream](https://github.com/daniel-maxwell/LC/tree/master/0295-find-median-from-data-stream) |
 | [0414-third-maximum-number](https://github.com/daniel-maxwell/LC/tree/master/0414-third-maximum-number) |
 | [0628-maximum-product-of-three-numbers](https://github.com/daniel-maxwell/LC/tree/master/0628-maximum-product-of-three-numbers) |
