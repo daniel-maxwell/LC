@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0128-longest-consecutive-sequence](https://github.com/daniel-maxwell/LC/tree/master/0128-longest-consecutive-sequence) |
 | [0140-word-break-ii](https://github.com/daniel-maxwell/LC/tree/master/0140-word-break-ii) |
 | [0198-house-robber](https://github.com/daniel-maxwell/LC/tree/master/0198-house-robber) |
+| [0200-number-of-islands](https://github.com/daniel-maxwell/LC/tree/master/0200-number-of-islands) |
 | [0228-summary-ranges](https://github.com/daniel-maxwell/LC/tree/master/0228-summary-ranges) |
 | [0238-product-of-array-except-self](https://github.com/daniel-maxwell/LC/tree/master/0238-product-of-array-except-self) |
 | [0239-sliding-window-maximum](https://github.com/daniel-maxwell/LC/tree/master/0239-sliding-window-maximum) |
@@ -128,6 +129,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0127-word-ladder](https://github.com/daniel-maxwell/LC/tree/master/0127-word-ladder) |
+| [0200-number-of-islands](https://github.com/daniel-maxwell/LC/tree/master/0200-number-of-islands) |
 | [0404-sum-of-left-leaves](https://github.com/daniel-maxwell/LC/tree/master/0404-sum-of-left-leaves) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/daniel-maxwell/LC/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0733-flood-fill](https://github.com/daniel-maxwell/LC/tree/master/0733-flood-fill) |
@@ -231,6 +233,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0113-path-sum-ii](https://github.com/daniel-maxwell/LC/tree/master/0113-path-sum-ii) |
+| [0200-number-of-islands](https://github.com/daniel-maxwell/LC/tree/master/0200-number-of-islands) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/daniel-maxwell/LC/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0250-count-univalue-subtrees](https://github.com/daniel-maxwell/LC/tree/master/0250-count-univalue-subtrees) |
 | [0404-sum-of-left-leaves](https://github.com/daniel-maxwell/LC/tree/master/0404-sum-of-left-leaves) |
@@ -262,6 +265,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0074-search-a-2d-matrix](https://github.com/daniel-maxwell/LC/tree/master/0074-search-a-2d-matrix) |
+| [0200-number-of-islands](https://github.com/daniel-maxwell/LC/tree/master/0200-number-of-islands) |
 | [0733-flood-fill](https://github.com/daniel-maxwell/LC/tree/master/0733-flood-fill) |
 | [0861-flipping-an-image](https://github.com/daniel-maxwell/LC/tree/master/0861-flipping-an-image) |
 | [0967-minimum-falling-path-sum](https://github.com/daniel-maxwell/LC/tree/master/0967-minimum-falling-path-sum) |
@@ -311,6 +315,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/daniel-maxwell/LC/tree/master/0128-longest-consecutive-sequence) |
+| [0200-number-of-islands](https://github.com/daniel-maxwell/LC/tree/master/0200-number-of-islands) |
 ## Recursion
 |  |
 | ------- |
