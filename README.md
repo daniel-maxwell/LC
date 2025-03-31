@@ -71,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/daniel-maxwell/LC/tree/master/0014-longest-common-prefix) |
+| [0020-valid-parentheses](https://github.com/daniel-maxwell/LC/tree/master/0020-valid-parentheses) |
 | [0076-minimum-window-substring](https://github.com/daniel-maxwell/LC/tree/master/0076-minimum-window-substring) |
 | [0127-word-ladder](https://github.com/daniel-maxwell/LC/tree/master/0127-word-ladder) |
 | [0140-word-break-ii](https://github.com/daniel-maxwell/LC/tree/master/0140-word-break-ii) |
@@ -268,6 +269,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/daniel-maxwell/LC/tree/master/0020-valid-parentheses) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/daniel-maxwell/LC/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/daniel-maxwell/LC/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 ## Simulation
