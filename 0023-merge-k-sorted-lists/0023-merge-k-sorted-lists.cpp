@@ -19,7 +19,6 @@ public:
             if (head == nullptr) continue;
             ListNode* cur = head;
             while (cur != nullptr) {
-                cout << cur->val << ", ";
                 sortedVals.push_back(cur->val);
                 valToNodes[cur->val].push_back(cur);
                 cur = cur->next;
