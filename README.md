@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/daniel-maxwell/LC/tree/master/0001-two-sum) |
 | [0018-4sum](https://github.com/daniel-maxwell/LC/tree/master/0018-4sum) |
+| [0049-group-anagrams](https://github.com/daniel-maxwell/LC/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/daniel-maxwell/LC/tree/master/0056-merge-intervals) |
 | [0074-search-a-2d-matrix](https://github.com/daniel-maxwell/LC/tree/master/0074-search-a-2d-matrix) |
 | [0078-subsets](https://github.com/daniel-maxwell/LC/tree/master/0078-subsets) |
@@ -73,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0014-longest-common-prefix](https://github.com/daniel-maxwell/LC/tree/master/0014-longest-common-prefix) |
 | [0020-valid-parentheses](https://github.com/daniel-maxwell/LC/tree/master/0020-valid-parentheses) |
+| [0049-group-anagrams](https://github.com/daniel-maxwell/LC/tree/master/0049-group-anagrams) |
 | [0076-minimum-window-substring](https://github.com/daniel-maxwell/LC/tree/master/0076-minimum-window-substring) |
 | [0127-word-ladder](https://github.com/daniel-maxwell/LC/tree/master/0127-word-ladder) |
 | [0140-word-break-ii](https://github.com/daniel-maxwell/LC/tree/master/0140-word-break-ii) |
@@ -99,6 +101,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/daniel-maxwell/LC/tree/master/0001-two-sum) |
+| [0049-group-anagrams](https://github.com/daniel-maxwell/LC/tree/master/0049-group-anagrams) |
 | [0076-minimum-window-substring](https://github.com/daniel-maxwell/LC/tree/master/0076-minimum-window-substring) |
 | [0127-word-ladder](https://github.com/daniel-maxwell/LC/tree/master/0127-word-ladder) |
 | [0128-longest-consecutive-sequence](https://github.com/daniel-maxwell/LC/tree/master/0128-longest-consecutive-sequence) |
@@ -138,6 +141,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0018-4sum](https://github.com/daniel-maxwell/LC/tree/master/0018-4sum) |
+| [0049-group-anagrams](https://github.com/daniel-maxwell/LC/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/daniel-maxwell/LC/tree/master/0056-merge-intervals) |
 | [0295-find-median-from-data-stream](https://github.com/daniel-maxwell/LC/tree/master/0295-find-median-from-data-stream) |
 | [0414-third-maximum-number](https://github.com/daniel-maxwell/LC/tree/master/0414-third-maximum-number) |
