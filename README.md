@@ -195,6 +195,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0023-merge-k-sorted-lists](https://github.com/daniel-maxwell/LC/tree/master/0023-merge-k-sorted-lists) |
 | [0239-sliding-window-maximum](https://github.com/daniel-maxwell/LC/tree/master/0239-sliding-window-maximum) |
 | [0295-find-median-from-data-stream](https://github.com/daniel-maxwell/LC/tree/master/0295-find-median-from-data-stream) |
 | [0778-reorganize-string](https://github.com/daniel-maxwell/LC/tree/master/0778-reorganize-string) |
@@ -304,6 +305,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Linked List
 |  |
 | ------- |
+| [0023-merge-k-sorted-lists](https://github.com/daniel-maxwell/LC/tree/master/0023-merge-k-sorted-lists) |
 | [0146-lru-cache](https://github.com/daniel-maxwell/LC/tree/master/0146-lru-cache) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/daniel-maxwell/LC/tree/master/2299-merge-nodes-in-between-zeros) |
 ## Geometry
@@ -345,6 +347,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Divide and Conquer
 |  |
 | ------- |
+| [0023-merge-k-sorted-lists](https://github.com/daniel-maxwell/LC/tree/master/0023-merge-k-sorted-lists) |
 | [1014-k-closest-points-to-origin](https://github.com/daniel-maxwell/LC/tree/master/1014-k-closest-points-to-origin) |
 ## Quickselect
 |  |
@@ -363,4 +366,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0572-subtree-of-another-tree](https://github.com/daniel-maxwell/LC/tree/master/0572-subtree-of-another-tree) |
+## Merge Sort
+|  |
+| ------- |
+| [0023-merge-k-sorted-lists](https://github.com/daniel-maxwell/LC/tree/master/0023-merge-k-sorted-lists) |
 <!---LeetCode Topics End-->
