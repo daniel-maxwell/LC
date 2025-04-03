@@ -6,8 +6,8 @@ static const bool Booster = [](){
 }();
 class Solution {
 public:
-    vector<int> twoSum(const vector<int>& nums, const int target) {
-        map<int, int>numsToIdx;
+    const vector<int> twoSum(const vector<int>& nums, const int target) {
+        unordered_map<int, int>numsToIdx;
         for (int i = 0; i < nums.size(); ++i) {
             if (numsToIdx.contains(target - nums[i])) return vector<int> {numsToIdx.at(target - nums[i]), i};
             numsToIdx[nums[i]] = i;
