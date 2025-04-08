@@ -1,6 +1,6 @@
 class Solution {
 public:
-    vector<int> anagramMappings(vector<int>& nums1, vector<int>& nums2) {
+    const vector<int> anagramMappings(const vector<int>& nums1, const vector<int>& nums2) {
         unordered_map<int, vector<int>> idxMap;
 
         for (int i = 0; i < nums2.size(); ++i) {
