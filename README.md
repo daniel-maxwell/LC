@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0078-subsets](https://github.com/daniel-maxwell/LC/tree/master/0078-subsets) |
 | [0128-longest-consecutive-sequence](https://github.com/daniel-maxwell/LC/tree/master/0128-longest-consecutive-sequence) |
 | [0140-word-break-ii](https://github.com/daniel-maxwell/LC/tree/master/0140-word-break-ii) |
+| [0163-missing-ranges](https://github.com/daniel-maxwell/LC/tree/master/0163-missing-ranges) |
 | [0198-house-robber](https://github.com/daniel-maxwell/LC/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/daniel-maxwell/LC/tree/master/0200-number-of-islands) |
 | [0228-summary-ranges](https://github.com/daniel-maxwell/LC/tree/master/0228-summary-ranges) |
