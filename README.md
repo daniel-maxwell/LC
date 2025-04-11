@@ -42,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1082-sum-of-digits-in-the-minimum-number](https://github.com/daniel-maxwell/LC/tree/master/1082-sum-of-digits-in-the-minimum-number) |
 | [1083-two-sum-less-than-k](https://github.com/daniel-maxwell/LC/tree/master/1083-two-sum-less-than-k) |
 | [1127-last-stone-weight](https://github.com/daniel-maxwell/LC/tree/master/1127-last-stone-weight) |
+| [1217-relative-sort-array](https://github.com/daniel-maxwell/LC/tree/master/1217-relative-sort-array) |
 | [1319-unique-number-of-occurrences](https://github.com/daniel-maxwell/LC/tree/master/1319-unique-number-of-occurrences) |
 | [1603-running-sum-of-1d-array](https://github.com/daniel-maxwell/LC/tree/master/1603-running-sum-of-1d-array) |
 | [1646-kth-missing-positive-number](https://github.com/daniel-maxwell/LC/tree/master/1646-kth-missing-positive-number) |
@@ -128,6 +129,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0889-buddy-strings](https://github.com/daniel-maxwell/LC/tree/master/0889-buddy-strings) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/daniel-maxwell/LC/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1074-high-five](https://github.com/daniel-maxwell/LC/tree/master/1074-high-five) |
+| [1217-relative-sort-array](https://github.com/daniel-maxwell/LC/tree/master/1217-relative-sort-array) |
 | [1319-unique-number-of-occurrences](https://github.com/daniel-maxwell/LC/tree/master/1319-unique-number-of-occurrences) |
 | [1816-lowest-common-ancestor-of-a-binary-tree-iv](https://github.com/daniel-maxwell/LC/tree/master/1816-lowest-common-ancestor-of-a-binary-tree-iv) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/daniel-maxwell/LC/tree/master/2163-kth-distinct-string-in-an-array) |
@@ -167,6 +169,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1074-high-five](https://github.com/daniel-maxwell/LC/tree/master/1074-high-five) |
 | [1075-index-pairs-of-a-string](https://github.com/daniel-maxwell/LC/tree/master/1075-index-pairs-of-a-string) |
 | [1083-two-sum-less-than-k](https://github.com/daniel-maxwell/LC/tree/master/1083-two-sum-less-than-k) |
+| [1217-relative-sort-array](https://github.com/daniel-maxwell/LC/tree/master/1217-relative-sort-array) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/daniel-maxwell/LC/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 | [3471-minimum-average-of-smallest-and-largest-elements](https://github.com/daniel-maxwell/LC/tree/master/3471-minimum-average-of-smallest-and-largest-elements) |
 ## Dynamic Programming
@@ -389,4 +392,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/daniel-maxwell/LC/tree/master/0023-merge-k-sorted-lists) |
+## Counting Sort
+|  |
+| ------- |
+| [1217-relative-sort-array](https://github.com/daniel-maxwell/LC/tree/master/1217-relative-sort-array) |
 <!---LeetCode Topics End-->
