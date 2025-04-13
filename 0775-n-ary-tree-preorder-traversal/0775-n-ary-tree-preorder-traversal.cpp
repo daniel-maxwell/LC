@@ -21,7 +21,7 @@ public:
 class Solution {
 public:
     vector<int> result;
-    vector<int> preorder(Node* root) {
+    const vector<int> preorder(Node* root) {
         if (root == nullptr) return result;
         result.push_back(root->val);
         for (Node* child : root->children) {
