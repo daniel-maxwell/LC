@@ -1,40 +1,46 @@
 class Solution {
 public:
-    int countServers(vector<vector<int>>& grid) {
+    const int countServers(const vector<vector<int>>& grid) {
 
         const int M = grid.size();
         const int N = grid[0].size();
 
-        unordered_set<string> connectedServers;
+        unordered_map<int, unordered_set<int>> connectedServers;
 
         for (int r = 0; r < M; ++r) {
-            vector<string> serversInRow;
+            vector<int> cols;
             for (int c = 0; c < N; ++c) {
                 if (grid[r][c] == 1) {
-                    serversInRow.push_back(to_string(r) + "," + to_string(c));
+                    cols.push_back(c);
                 }
             }
-            if (serversInRow.size() > 1) {
-                for (const string &coord : serversInRow) {
-                    connectedServers.insert(coord);
+            if (cols.size() > 1) {
+                for (const int &col : cols) {
+                    connectedServers[r].insert(col);
                 }
             }
         }
 
         for (int c = 0; c < N; ++c) {
-            vector<string> serversInCol;
+            vector<int> rows;
             for (int r = 0; r < M; ++r) {
                 if (grid[r][c] == 1) {
-                    serversInCol.push_back(to_string(r) + "," + to_string(c));
+                    rows.push_back(r);
                 }
             }
-            if (serversInCol.size() > 1) {
-                for (const string &coord : serversInCol) {
-                    connectedServers.insert(coord);
+            if (rows.size() > 1) {
+                for (const int &r : rows) {
+                    connectedServers[r].insert(c);
                 }
             }
         }
 
-        return connectedServers.size();
+        int result = 0;
+
+        for (const auto &entry : connectedServers) {
+            result += entry.second.size();
+        }
+
+        return result;
     }
 };
