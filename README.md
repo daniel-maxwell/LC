@@ -44,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1127-last-stone-weight](https://github.com/daniel-maxwell/LC/tree/master/1127-last-stone-weight) |
 | [1217-relative-sort-array](https://github.com/daniel-maxwell/LC/tree/master/1217-relative-sort-array) |
 | [1319-unique-number-of-occurrences](https://github.com/daniel-maxwell/LC/tree/master/1319-unique-number-of-occurrences) |
+| [1396-count-servers-that-communicate](https://github.com/daniel-maxwell/LC/tree/master/1396-count-servers-that-communicate) |
 | [1603-running-sum-of-1d-array](https://github.com/daniel-maxwell/LC/tree/master/1603-running-sum-of-1d-array) |
 | [1646-kth-missing-positive-number](https://github.com/daniel-maxwell/LC/tree/master/1646-kth-missing-positive-number) |
 | [1791-richest-customer-wealth](https://github.com/daniel-maxwell/LC/tree/master/1791-richest-customer-wealth) |
@@ -143,6 +144,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0778-reorganize-string](https://github.com/daniel-maxwell/LC/tree/master/0778-reorganize-string) |
 | [0837-most-common-word](https://github.com/daniel-maxwell/LC/tree/master/0837-most-common-word) |
 | [1341-split-a-string-in-balanced-strings](https://github.com/daniel-maxwell/LC/tree/master/1341-split-a-string-in-balanced-strings) |
+| [1396-count-servers-that-communicate](https://github.com/daniel-maxwell/LC/tree/master/1396-count-servers-that-communicate) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/daniel-maxwell/LC/tree/master/2163-kth-distinct-string-in-an-array) |
 ## Breadth-First Search
 |  |
@@ -154,6 +156,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/daniel-maxwell/LC/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0733-flood-fill](https://github.com/daniel-maxwell/LC/tree/master/0733-flood-fill) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/daniel-maxwell/LC/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
+| [1396-count-servers-that-communicate](https://github.com/daniel-maxwell/LC/tree/master/1396-count-servers-that-communicate) |
 ## Sorting
 |  |
 | ------- |
@@ -272,6 +275,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0775-n-ary-tree-preorder-traversal](https://github.com/daniel-maxwell/LC/tree/master/0775-n-ary-tree-preorder-traversal) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/daniel-maxwell/LC/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/daniel-maxwell/LC/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
+| [1396-count-servers-that-communicate](https://github.com/daniel-maxwell/LC/tree/master/1396-count-servers-that-communicate) |
 | [1816-lowest-common-ancestor-of-a-binary-tree-iv](https://github.com/daniel-maxwell/LC/tree/master/1816-lowest-common-ancestor-of-a-binary-tree-iv) |
 ## Binary Search Tree
 |  |
@@ -299,6 +303,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0733-flood-fill](https://github.com/daniel-maxwell/LC/tree/master/0733-flood-fill) |
 | [0861-flipping-an-image](https://github.com/daniel-maxwell/LC/tree/master/0861-flipping-an-image) |
 | [0967-minimum-falling-path-sum](https://github.com/daniel-maxwell/LC/tree/master/0967-minimum-falling-path-sum) |
+| [1396-count-servers-that-communicate](https://github.com/daniel-maxwell/LC/tree/master/1396-count-servers-that-communicate) |
 | [1791-richest-customer-wealth](https://github.com/daniel-maxwell/LC/tree/master/1791-richest-customer-wealth) |
 ## Stack
 |  |
@@ -348,6 +353,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/daniel-maxwell/LC/tree/master/0128-longest-consecutive-sequence) |
 | [0200-number-of-islands](https://github.com/daniel-maxwell/LC/tree/master/0200-number-of-islands) |
+| [1396-count-servers-that-communicate](https://github.com/daniel-maxwell/LC/tree/master/1396-count-servers-that-communicate) |
 ## Recursion
 |  |
 | ------- |
