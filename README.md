@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0967-minimum-falling-path-sum](https://github.com/daniel-maxwell/LC/tree/master/0967-minimum-falling-path-sum) |
 | [1014-k-closest-points-to-origin](https://github.com/daniel-maxwell/LC/tree/master/1014-k-closest-points-to-origin) |
 | [1018-largest-perimeter-triangle](https://github.com/daniel-maxwell/LC/tree/master/1018-largest-perimeter-triangle) |
+| [1047-maximize-sum-of-array-after-k-negations](https://github.com/daniel-maxwell/LC/tree/master/1047-maximize-sum-of-array-after-k-negations) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/daniel-maxwell/LC/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1074-high-five](https://github.com/daniel-maxwell/LC/tree/master/1074-high-five) |
 | [1075-index-pairs-of-a-string](https://github.com/daniel-maxwell/LC/tree/master/1075-index-pairs-of-a-string) |
@@ -170,6 +171,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0778-reorganize-string](https://github.com/daniel-maxwell/LC/tree/master/0778-reorganize-string) |
 | [1014-k-closest-points-to-origin](https://github.com/daniel-maxwell/LC/tree/master/1014-k-closest-points-to-origin) |
 | [1018-largest-perimeter-triangle](https://github.com/daniel-maxwell/LC/tree/master/1018-largest-perimeter-triangle) |
+| [1047-maximize-sum-of-array-after-k-negations](https://github.com/daniel-maxwell/LC/tree/master/1047-maximize-sum-of-array-after-k-negations) |
 | [1074-high-five](https://github.com/daniel-maxwell/LC/tree/master/1074-high-five) |
 | [1075-index-pairs-of-a-string](https://github.com/daniel-maxwell/LC/tree/master/1075-index-pairs-of-a-string) |
 | [1083-two-sum-less-than-k](https://github.com/daniel-maxwell/LC/tree/master/1083-two-sum-less-than-k) |
@@ -329,6 +331,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0778-reorganize-string](https://github.com/daniel-maxwell/LC/tree/master/0778-reorganize-string) |
 | [1018-largest-perimeter-triangle](https://github.com/daniel-maxwell/LC/tree/master/1018-largest-perimeter-triangle) |
+| [1047-maximize-sum-of-array-after-k-negations](https://github.com/daniel-maxwell/LC/tree/master/1047-maximize-sum-of-array-after-k-negations) |
 | [1341-split-a-string-in-balanced-strings](https://github.com/daniel-maxwell/LC/tree/master/1341-split-a-string-in-balanced-strings) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/daniel-maxwell/LC/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 | [2474-minimum-adjacent-swaps-to-make-a-valid-array](https://github.com/daniel-maxwell/LC/tree/master/2474-minimum-adjacent-swaps-to-make-a-valid-array) |
