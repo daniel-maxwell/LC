@@ -105,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1089-remove-vowels-from-a-string](https://github.com/daniel-maxwell/LC/tree/master/1089-remove-vowels-from-a-string) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/daniel-maxwell/LC/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1341-split-a-string-in-balanced-strings](https://github.com/daniel-maxwell/LC/tree/master/1341-split-a-string-in-balanced-strings) |
+| [1764-maximum-repeating-substring](https://github.com/daniel-maxwell/LC/tree/master/1764-maximum-repeating-substring) |
 | [1894-merge-strings-alternately](https://github.com/daniel-maxwell/LC/tree/master/1894-merge-strings-alternately) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/daniel-maxwell/LC/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/daniel-maxwell/LC/tree/master/2163-kth-distinct-string-in-an-array) |
@@ -188,6 +189,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0747-min-cost-climbing-stairs](https://github.com/daniel-maxwell/LC/tree/master/0747-min-cost-climbing-stairs) |
 | [0967-minimum-falling-path-sum](https://github.com/daniel-maxwell/LC/tree/master/0967-minimum-falling-path-sum) |
 | [1013-fibonacci-number](https://github.com/daniel-maxwell/LC/tree/master/1013-fibonacci-number) |
+| [1764-maximum-repeating-substring](https://github.com/daniel-maxwell/LC/tree/master/1764-maximum-repeating-substring) |
 ## Backtracking
 |  |
 | ------- |
@@ -379,6 +381,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0572-subtree-of-another-tree](https://github.com/daniel-maxwell/LC/tree/master/0572-subtree-of-another-tree) |
 | [0812-rotate-string](https://github.com/daniel-maxwell/LC/tree/master/0812-rotate-string) |
+| [1764-maximum-repeating-substring](https://github.com/daniel-maxwell/LC/tree/master/1764-maximum-repeating-substring) |
 ## Divide and Conquer
 |  |
 | ------- |
