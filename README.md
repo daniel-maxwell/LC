@@ -249,6 +249,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2481-strictly-palindromic-number](https://github.com/daniel-maxwell/LC/tree/master/2481-strictly-palindromic-number) |
 | [2556-convert-the-temperature](https://github.com/daniel-maxwell/LC/tree/master/2556-convert-the-temperature) |
 | [2663-distribute-money-to-maximum-children](https://github.com/daniel-maxwell/LC/tree/master/2663-distribute-money-to-maximum-children) |
+| [2752-sum-multiples](https://github.com/daniel-maxwell/LC/tree/master/2752-sum-multiples) |
 ## Tree
 |  |
 | ------- |
