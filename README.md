@@ -93,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0345-reverse-vowels-of-a-string](https://github.com/daniel-maxwell/LC/tree/master/0345-reverse-vowels-of-a-string) |
 | [0383-ransom-note](https://github.com/daniel-maxwell/LC/tree/master/0383-ransom-note) |
 | [0408-valid-word-abbreviation](https://github.com/daniel-maxwell/LC/tree/master/0408-valid-word-abbreviation) |
+| [0434-number-of-segments-in-a-string](https://github.com/daniel-maxwell/LC/tree/master/0434-number-of-segments-in-a-string) |
 | [0443-string-compression](https://github.com/daniel-maxwell/LC/tree/master/0443-string-compression) |
 | [0520-detect-capital](https://github.com/daniel-maxwell/LC/tree/master/0520-detect-capital) |
 | [0742-to-lower-case](https://github.com/daniel-maxwell/LC/tree/master/0742-to-lower-case) |
