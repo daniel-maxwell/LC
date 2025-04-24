@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/daniel-maxwell/LC/tree/master/0322-coin-change) |
 | [0346-moving-average-from-data-stream](https://github.com/daniel-maxwell/LC/tree/master/0346-moving-average-from-data-stream) |
 | [0414-third-maximum-number](https://github.com/daniel-maxwell/LC/tree/master/0414-third-maximum-number) |
+| [0500-keyboard-row](https://github.com/daniel-maxwell/LC/tree/master/0500-keyboard-row) |
 | [0628-maximum-product-of-three-numbers](https://github.com/daniel-maxwell/LC/tree/master/0628-maximum-product-of-three-numbers) |
 | [0643-maximum-average-subarray-i](https://github.com/daniel-maxwell/LC/tree/master/0643-maximum-average-subarray-i) |
 | [0733-flood-fill](https://github.com/daniel-maxwell/LC/tree/master/0733-flood-fill) |
@@ -95,6 +96,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0408-valid-word-abbreviation](https://github.com/daniel-maxwell/LC/tree/master/0408-valid-word-abbreviation) |
 | [0434-number-of-segments-in-a-string](https://github.com/daniel-maxwell/LC/tree/master/0434-number-of-segments-in-a-string) |
 | [0443-string-compression](https://github.com/daniel-maxwell/LC/tree/master/0443-string-compression) |
+| [0500-keyboard-row](https://github.com/daniel-maxwell/LC/tree/master/0500-keyboard-row) |
 | [0520-detect-capital](https://github.com/daniel-maxwell/LC/tree/master/0520-detect-capital) |
 | [0742-to-lower-case](https://github.com/daniel-maxwell/LC/tree/master/0742-to-lower-case) |
 | [0749-shortest-completing-word](https://github.com/daniel-maxwell/LC/tree/master/0749-shortest-completing-word) |
@@ -126,6 +128,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0246-strobogrammatic-number](https://github.com/daniel-maxwell/LC/tree/master/0246-strobogrammatic-number) |
 | [0359-logger-rate-limiter](https://github.com/daniel-maxwell/LC/tree/master/0359-logger-rate-limiter) |
 | [0383-ransom-note](https://github.com/daniel-maxwell/LC/tree/master/0383-ransom-note) |
+| [0500-keyboard-row](https://github.com/daniel-maxwell/LC/tree/master/0500-keyboard-row) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/daniel-maxwell/LC/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0749-shortest-completing-word](https://github.com/daniel-maxwell/LC/tree/master/0749-shortest-completing-word) |
 | [0762-find-anagram-mappings](https://github.com/daniel-maxwell/LC/tree/master/0762-find-anagram-mappings) |
