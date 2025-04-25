@@ -44,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1082-sum-of-digits-in-the-minimum-number](https://github.com/daniel-maxwell/LC/tree/master/1082-sum-of-digits-in-the-minimum-number) |
 | [1083-two-sum-less-than-k](https://github.com/daniel-maxwell/LC/tree/master/1083-two-sum-less-than-k) |
 | [1127-last-stone-weight](https://github.com/daniel-maxwell/LC/tree/master/1127-last-stone-weight) |
+| [1141-how-many-apples-can-you-put-into-the-basket](https://github.com/daniel-maxwell/LC/tree/master/1141-how-many-apples-can-you-put-into-the-basket) |
 | [1217-relative-sort-array](https://github.com/daniel-maxwell/LC/tree/master/1217-relative-sort-array) |
 | [1319-unique-number-of-occurrences](https://github.com/daniel-maxwell/LC/tree/master/1319-unique-number-of-occurrences) |
 | [1396-count-servers-that-communicate](https://github.com/daniel-maxwell/LC/tree/master/1396-count-servers-that-communicate) |
@@ -181,6 +182,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1074-high-five](https://github.com/daniel-maxwell/LC/tree/master/1074-high-five) |
 | [1075-index-pairs-of-a-string](https://github.com/daniel-maxwell/LC/tree/master/1075-index-pairs-of-a-string) |
 | [1083-two-sum-less-than-k](https://github.com/daniel-maxwell/LC/tree/master/1083-two-sum-less-than-k) |
+| [1141-how-many-apples-can-you-put-into-the-basket](https://github.com/daniel-maxwell/LC/tree/master/1141-how-many-apples-can-you-put-into-the-basket) |
 | [1217-relative-sort-array](https://github.com/daniel-maxwell/LC/tree/master/1217-relative-sort-array) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/daniel-maxwell/LC/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 | [3471-minimum-average-of-smallest-and-largest-elements](https://github.com/daniel-maxwell/LC/tree/master/3471-minimum-average-of-smallest-and-largest-elements) |
@@ -341,6 +343,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0778-reorganize-string](https://github.com/daniel-maxwell/LC/tree/master/0778-reorganize-string) |
 | [1018-largest-perimeter-triangle](https://github.com/daniel-maxwell/LC/tree/master/1018-largest-perimeter-triangle) |
 | [1047-maximize-sum-of-array-after-k-negations](https://github.com/daniel-maxwell/LC/tree/master/1047-maximize-sum-of-array-after-k-negations) |
+| [1141-how-many-apples-can-you-put-into-the-basket](https://github.com/daniel-maxwell/LC/tree/master/1141-how-many-apples-can-you-put-into-the-basket) |
 | [1341-split-a-string-in-balanced-strings](https://github.com/daniel-maxwell/LC/tree/master/1341-split-a-string-in-balanced-strings) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/daniel-maxwell/LC/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 | [2474-minimum-adjacent-swaps-to-make-a-valid-array](https://github.com/daniel-maxwell/LC/tree/master/2474-minimum-adjacent-swaps-to-make-a-valid-array) |
