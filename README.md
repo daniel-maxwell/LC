@@ -32,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0749-shortest-completing-word](https://github.com/daniel-maxwell/LC/tree/master/0749-shortest-completing-word) |
 | [0762-find-anagram-mappings](https://github.com/daniel-maxwell/LC/tree/master/0762-find-anagram-mappings) |
 | [0837-most-common-word](https://github.com/daniel-maxwell/LC/tree/master/0837-most-common-word) |
+| [0841-shortest-distance-to-a-character](https://github.com/daniel-maxwell/LC/tree/master/0841-shortest-distance-to-a-character) |
 | [0861-flipping-an-image](https://github.com/daniel-maxwell/LC/tree/master/0861-flipping-an-image) |
 | [0951-partition-array-into-disjoint-intervals](https://github.com/daniel-maxwell/LC/tree/master/0951-partition-array-into-disjoint-intervals) |
 | [0967-minimum-falling-path-sum](https://github.com/daniel-maxwell/LC/tree/master/0967-minimum-falling-path-sum) |
@@ -76,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0408-valid-word-abbreviation](https://github.com/daniel-maxwell/LC/tree/master/0408-valid-word-abbreviation) |
 | [0443-string-compression](https://github.com/daniel-maxwell/LC/tree/master/0443-string-compression) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/daniel-maxwell/LC/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0841-shortest-distance-to-a-character](https://github.com/daniel-maxwell/LC/tree/master/0841-shortest-distance-to-a-character) |
 | [0861-flipping-an-image](https://github.com/daniel-maxwell/LC/tree/master/0861-flipping-an-image) |
 | [1083-two-sum-less-than-k](https://github.com/daniel-maxwell/LC/tree/master/1083-two-sum-less-than-k) |
 | [1894-merge-strings-alternately](https://github.com/daniel-maxwell/LC/tree/master/1894-merge-strings-alternately) |
@@ -105,6 +107,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0782-jewels-and-stones](https://github.com/daniel-maxwell/LC/tree/master/0782-jewels-and-stones) |
 | [0812-rotate-string](https://github.com/daniel-maxwell/LC/tree/master/0812-rotate-string) |
 | [0837-most-common-word](https://github.com/daniel-maxwell/LC/tree/master/0837-most-common-word) |
+| [0841-shortest-distance-to-a-character](https://github.com/daniel-maxwell/LC/tree/master/0841-shortest-distance-to-a-character) |
 | [0889-buddy-strings](https://github.com/daniel-maxwell/LC/tree/master/0889-buddy-strings) |
 | [1075-index-pairs-of-a-string](https://github.com/daniel-maxwell/LC/tree/master/1075-index-pairs-of-a-string) |
 | [1089-remove-vowels-from-a-string](https://github.com/daniel-maxwell/LC/tree/master/1089-remove-vowels-from-a-string) |
