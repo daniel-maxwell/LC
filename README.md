@@ -96,6 +96,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0140-word-break-ii](https://github.com/daniel-maxwell/LC/tree/master/0140-word-break-ii) |
 | [0243-shortest-word-distance](https://github.com/daniel-maxwell/LC/tree/master/0243-shortest-word-distance) |
 | [0246-strobogrammatic-number](https://github.com/daniel-maxwell/LC/tree/master/0246-strobogrammatic-number) |
+| [0257-binary-tree-paths](https://github.com/daniel-maxwell/LC/tree/master/0257-binary-tree-paths) |
 | [0345-reverse-vowels-of-a-string](https://github.com/daniel-maxwell/LC/tree/master/0345-reverse-vowels-of-a-string) |
 | [0383-ransom-note](https://github.com/daniel-maxwell/LC/tree/master/0383-ransom-note) |
 | [0408-valid-word-abbreviation](https://github.com/daniel-maxwell/LC/tree/master/0408-valid-word-abbreviation) |
@@ -210,6 +211,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0078-subsets](https://github.com/daniel-maxwell/LC/tree/master/0078-subsets) |
 | [0113-path-sum-ii](https://github.com/daniel-maxwell/LC/tree/master/0113-path-sum-ii) |
 | [0140-word-break-ii](https://github.com/daniel-maxwell/LC/tree/master/0140-word-break-ii) |
+| [0257-binary-tree-paths](https://github.com/daniel-maxwell/LC/tree/master/0257-binary-tree-paths) |
 ## Trie
 |  |
 | ------- |
@@ -271,6 +273,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0113-path-sum-ii](https://github.com/daniel-maxwell/LC/tree/master/0113-path-sum-ii) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/daniel-maxwell/LC/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0250-count-univalue-subtrees](https://github.com/daniel-maxwell/LC/tree/master/0250-count-univalue-subtrees) |
+| [0257-binary-tree-paths](https://github.com/daniel-maxwell/LC/tree/master/0257-binary-tree-paths) |
 | [0404-sum-of-left-leaves](https://github.com/daniel-maxwell/LC/tree/master/0404-sum-of-left-leaves) |
 | [0501-find-mode-in-binary-search-tree](https://github.com/daniel-maxwell/LC/tree/master/0501-find-mode-in-binary-search-tree) |
 | [0572-subtree-of-another-tree](https://github.com/daniel-maxwell/LC/tree/master/0572-subtree-of-another-tree) |
@@ -287,6 +290,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/daniel-maxwell/LC/tree/master/0200-number-of-islands) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/daniel-maxwell/LC/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0250-count-univalue-subtrees](https://github.com/daniel-maxwell/LC/tree/master/0250-count-univalue-subtrees) |
+| [0257-binary-tree-paths](https://github.com/daniel-maxwell/LC/tree/master/0257-binary-tree-paths) |
 | [0404-sum-of-left-leaves](https://github.com/daniel-maxwell/LC/tree/master/0404-sum-of-left-leaves) |
 | [0501-find-mode-in-binary-search-tree](https://github.com/daniel-maxwell/LC/tree/master/0501-find-mode-in-binary-search-tree) |
 | [0572-subtree-of-another-tree](https://github.com/daniel-maxwell/LC/tree/master/0572-subtree-of-another-tree) |
@@ -308,6 +312,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0113-path-sum-ii](https://github.com/daniel-maxwell/LC/tree/master/0113-path-sum-ii) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/daniel-maxwell/LC/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0250-count-univalue-subtrees](https://github.com/daniel-maxwell/LC/tree/master/0250-count-univalue-subtrees) |
+| [0257-binary-tree-paths](https://github.com/daniel-maxwell/LC/tree/master/0257-binary-tree-paths) |
 | [0404-sum-of-left-leaves](https://github.com/daniel-maxwell/LC/tree/master/0404-sum-of-left-leaves) |
 | [0501-find-mode-in-binary-search-tree](https://github.com/daniel-maxwell/LC/tree/master/0501-find-mode-in-binary-search-tree) |
 | [0572-subtree-of-another-tree](https://github.com/daniel-maxwell/LC/tree/master/0572-subtree-of-another-tree) |
