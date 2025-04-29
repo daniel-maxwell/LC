@@ -104,6 +104,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0443-string-compression](https://github.com/daniel-maxwell/LC/tree/master/0443-string-compression) |
 | [0500-keyboard-row](https://github.com/daniel-maxwell/LC/tree/master/0500-keyboard-row) |
 | [0520-detect-capital](https://github.com/daniel-maxwell/LC/tree/master/0520-detect-capital) |
+| [0551-student-attendance-record-i](https://github.com/daniel-maxwell/LC/tree/master/0551-student-attendance-record-i) |
 | [0742-to-lower-case](https://github.com/daniel-maxwell/LC/tree/master/0742-to-lower-case) |
 | [0749-shortest-completing-word](https://github.com/daniel-maxwell/LC/tree/master/0749-shortest-completing-word) |
 | [0778-reorganize-string](https://github.com/daniel-maxwell/LC/tree/master/0778-reorganize-string) |
