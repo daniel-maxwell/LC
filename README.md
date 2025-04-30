@@ -59,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/daniel-maxwell/LC/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 | [2474-minimum-adjacent-swaps-to-make-a-valid-array](https://github.com/daniel-maxwell/LC/tree/master/2474-minimum-adjacent-swaps-to-make-a-valid-array) |
 | [2727-number-of-senior-citizens](https://github.com/daniel-maxwell/LC/tree/master/2727-number-of-senior-citizens) |
+| [3154-maximum-value-of-an-ordered-triplet-i](https://github.com/daniel-maxwell/LC/tree/master/3154-maximum-value-of-an-ordered-triplet-i) |
 | [3471-minimum-average-of-smallest-and-largest-elements](https://github.com/daniel-maxwell/LC/tree/master/3471-minimum-average-of-smallest-and-largest-elements) |
 ## Binary Search
 |  |
