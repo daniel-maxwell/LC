@@ -61,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2727-number-of-senior-citizens](https://github.com/daniel-maxwell/LC/tree/master/2727-number-of-senior-citizens) |
 | [3154-maximum-value-of-an-ordered-triplet-i](https://github.com/daniel-maxwell/LC/tree/master/3154-maximum-value-of-an-ordered-triplet-i) |
 | [3471-minimum-average-of-smallest-and-largest-elements](https://github.com/daniel-maxwell/LC/tree/master/3471-minimum-average-of-smallest-and-largest-elements) |
+| [3581-the-two-sneaky-numbers-of-digitville](https://github.com/daniel-maxwell/LC/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
 ## Binary Search
 |  |
 | ------- |
@@ -154,6 +155,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2163-kth-distinct-string-in-an-array](https://github.com/daniel-maxwell/LC/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/daniel-maxwell/LC/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/daniel-maxwell/LC/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
+| [3581-the-two-sneaky-numbers-of-digitville](https://github.com/daniel-maxwell/LC/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
 ## Counting
 |  |
 | ------- |
@@ -269,6 +271,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2556-convert-the-temperature](https://github.com/daniel-maxwell/LC/tree/master/2556-convert-the-temperature) |
 | [2663-distribute-money-to-maximum-children](https://github.com/daniel-maxwell/LC/tree/master/2663-distribute-money-to-maximum-children) |
 | [2752-sum-multiples](https://github.com/daniel-maxwell/LC/tree/master/2752-sum-multiples) |
+| [3581-the-two-sneaky-numbers-of-digitville](https://github.com/daniel-maxwell/LC/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
 ## Tree
 |  |
 | ------- |
