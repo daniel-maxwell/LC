@@ -50,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1217-relative-sort-array](https://github.com/daniel-maxwell/LC/tree/master/1217-relative-sort-array) |
 | [1319-unique-number-of-occurrences](https://github.com/daniel-maxwell/LC/tree/master/1319-unique-number-of-occurrences) |
 | [1396-count-servers-that-communicate](https://github.com/daniel-maxwell/LC/tree/master/1396-count-servers-that-communicate) |
+| [1524-string-matching-in-an-array](https://github.com/daniel-maxwell/LC/tree/master/1524-string-matching-in-an-array) |
 | [1603-running-sum-of-1d-array](https://github.com/daniel-maxwell/LC/tree/master/1603-running-sum-of-1d-array) |
 | [1646-kth-missing-positive-number](https://github.com/daniel-maxwell/LC/tree/master/1646-kth-missing-positive-number) |
 | [1791-richest-customer-wealth](https://github.com/daniel-maxwell/LC/tree/master/1791-richest-customer-wealth) |
@@ -119,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1089-remove-vowels-from-a-string](https://github.com/daniel-maxwell/LC/tree/master/1089-remove-vowels-from-a-string) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/daniel-maxwell/LC/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1341-split-a-string-in-balanced-strings](https://github.com/daniel-maxwell/LC/tree/master/1341-split-a-string-in-balanced-strings) |
+| [1524-string-matching-in-an-array](https://github.com/daniel-maxwell/LC/tree/master/1524-string-matching-in-an-array) |
 | [1764-maximum-repeating-substring](https://github.com/daniel-maxwell/LC/tree/master/1764-maximum-repeating-substring) |
 | [1894-merge-strings-alternately](https://github.com/daniel-maxwell/LC/tree/master/1894-merge-strings-alternately) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/daniel-maxwell/LC/tree/master/2137-final-value-of-variable-after-performing-operations) |
@@ -409,6 +411,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0572-subtree-of-another-tree](https://github.com/daniel-maxwell/LC/tree/master/0572-subtree-of-another-tree) |
 | [0812-rotate-string](https://github.com/daniel-maxwell/LC/tree/master/0812-rotate-string) |
+| [1524-string-matching-in-an-array](https://github.com/daniel-maxwell/LC/tree/master/1524-string-matching-in-an-array) |
 | [1764-maximum-repeating-substring](https://github.com/daniel-maxwell/LC/tree/master/1764-maximum-repeating-substring) |
 ## Divide and Conquer
 |  |
