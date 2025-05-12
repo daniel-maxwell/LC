@@ -264,6 +264,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0009-palindrome-number](https://github.com/daniel-maxwell/LC/tree/master/0009-palindrome-number) |
 | [0070-climbing-stairs](https://github.com/daniel-maxwell/LC/tree/master/0070-climbing-stairs) |
 | [0292-nim-game](https://github.com/daniel-maxwell/LC/tree/master/0292-nim-game) |
+| [0492-construct-the-rectangle](https://github.com/daniel-maxwell/LC/tree/master/0492-construct-the-rectangle) |
 | [0628-maximum-product-of-three-numbers](https://github.com/daniel-maxwell/LC/tree/master/0628-maximum-product-of-three-numbers) |
 | [0866-rectangle-overlap](https://github.com/daniel-maxwell/LC/tree/master/0866-rectangle-overlap) |
 | [1013-fibonacci-number](https://github.com/daniel-maxwell/LC/tree/master/1013-fibonacci-number) |
