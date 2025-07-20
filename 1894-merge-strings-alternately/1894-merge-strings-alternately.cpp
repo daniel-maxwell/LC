@@ -1,18 +1,14 @@
 class Solution {
 public:
-    string mergeAlternately(string word1, string word2) {
-        string result = "";
-
-        int w1Ptr = 0;
-        int w2Ptr = 0;
-
-        while (w1Ptr < word1.size() || w2Ptr < word2.size()) {
-            if (w1Ptr < word1.size()) result += word1[w1Ptr];
-            if (w2Ptr < word2.size()) result += word2[w2Ptr];
-            ++w1Ptr;
-            ++w2Ptr;
+    const string mergeAlternately(const string &word1, const string &word2) {
+        string s;
+        s.reserve(word1.size() + word2.size());
+        size_t i = 0;
+        while (i < word1.size() || i < word2.size()) {
+            if (i < word1.size()) s += word1[i];
+            if (i < word2.size()) s += word2[i];
+            ++i;
         }
-
-        return result;
+        return s;
     }
 };
