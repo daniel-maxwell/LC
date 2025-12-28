@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/daniel-maxwell/LC/tree/master/0001-two-sum) |
 | [0014-longest-common-prefix](https://github.com/daniel-maxwell/LC/tree/master/0014-longest-common-prefix) |
 | [0018-4sum](https://github.com/daniel-maxwell/LC/tree/master/0018-4sum) |
+| [0035-search-insert-position](https://github.com/daniel-maxwell/LC/tree/master/0035-search-insert-position) |
 | [0049-group-anagrams](https://github.com/daniel-maxwell/LC/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/daniel-maxwell/LC/tree/master/0056-merge-intervals) |
 | [0074-search-a-2d-matrix](https://github.com/daniel-maxwell/LC/tree/master/0074-search-a-2d-matrix) |
@@ -70,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [0035-search-insert-position](https://github.com/daniel-maxwell/LC/tree/master/0035-search-insert-position) |
 | [0074-search-a-2d-matrix](https://github.com/daniel-maxwell/LC/tree/master/0074-search-a-2d-matrix) |
 | [0745-find-smallest-letter-greater-than-target](https://github.com/daniel-maxwell/LC/tree/master/0745-find-smallest-letter-greater-than-target) |
 | [0924-fair-candy-swap](https://github.com/daniel-maxwell/LC/tree/master/0924-fair-candy-swap) |
